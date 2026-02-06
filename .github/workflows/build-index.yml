@@ -53,37 +53,7 @@ jobs:
           git fetch origin gh-pages:gh-pages || echo "No gh-pages branch yet"
           if git show gh-pages:versions.json > /tmp/old_versions.json 2>/dev/null; then
             echo "Found existing versions.json on gh-pages, will merge"
-            # Merge: read old manifest, prepend new entry if not present
-            python3 << 'PYEOF'
-import json, os
-from datetime import datetime
-
-# Read current (newly built) manifest
-with open('versions.json', 'r') as f:
-    new_manifest = json.load(f)
-
-# Read old manifest from gh-pages
-with open('/tmp/old_versions.json', 'r') as f:
-    old_manifest = json.load(f)
-
-# Get the version id from the new manifest (should be first entry)
-new_version = new_manifest[0]['version'] if new_manifest else None
-
-# Merge: if new_version not in old_manifest, prepend it; else keep old
-if new_version and not any(e.get('version') == new_version for e in old_manifest):
-    merged = new_manifest + old_manifest
-else:
-    merged = old_manifest
-
-# Keep only last 100 versions
-merged = merged[:100]
-
-# Write merged manifest
-with open('versions.json', 'w') as f:
-    json.dump(merged, f, ensure_ascii=False, indent=2)
-
-print(f"Merged manifest now has {len(merged)} versions")
-PYEOF
+            python scripts/merge_versions.py /tmp/old_versions.json versions.json
           else
             echo "No existing versions.json on gh-pages; using newly built one"
           fi
