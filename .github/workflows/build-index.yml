@@ -46,13 +46,29 @@ jobs:
         run: |
           python scripts/build_index.py
           git status --porcelain
-      - name: Prepare deploy directory
+      - name: Prepare deploy directory (debug + robust)
         run: |
+          echo "GITHUB_WORKSPACE=${GITHUB_WORKSPACE}"
+          echo "PWD: $(pwd)"
+          echo "Listing repository root:"; ls -la
           rm -rf deploy || true
           mkdir -p deploy/versions
-          cp -v index.json deploy/
-          if [ -f versions.json ]; then cp -v versions.json deploy/; fi
-          if [ -d versions ]; then cp -rv versions deploy/; fi
+          if [ -f index.json ]; then
+            cp -v index.json deploy/
+          else
+            echo "ERROR: index.json not found - build step may have failed"; ls -la; exit 1
+          fi
+          if [ -f versions.json ]; then
+            cp -v versions.json deploy/
+          else
+            echo "Note: versions.json not present; continuing"
+          fi
+          if [ -d versions ]; then
+            cp -rv versions deploy/
+          else
+            echo "Note: versions/ directory not present; continuing"
+          fi
+          echo "Deploy dir contents:"; ls -la deploy; ls -la deploy/versions || true
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
