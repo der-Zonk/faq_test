@@ -2,11 +2,8 @@
 turn_order: "TBD"
 category: "Combat"
 question: "What happens when skirmishers give ground?"
-date: "2026-02-06"
 referenced_rules: |
-  |
-change_log: "Imported sample"
-source_csv: webform
+  https://tow.whfb.app/unusual-formations/skirmishers-in-combat
 ---
 
 When a unit with the Skirmisher trait gives ground, resolve the retreat as follows:
