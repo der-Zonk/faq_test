@@ -20,20 +20,50 @@ VERSIONS_MANIFEST = os.path.join(ROOT, 'versions.json')
 
 
 def parse_frontmatter(text):
+    """Parse YAML-like frontmatter with support for multiline blocks (|)."""
     lines = text.splitlines()
     if not lines or not lines[0].strip().startswith('---'):
         return {}, text
+    
     fm = {}
     i = 1
     while i < len(lines):
-        if lines[i].strip() == '---':
+        line = lines[i]
+        
+        # End of frontmatter block
+        if line.strip() == '---':
             i += 1
             break
-        line = lines[i]
-        if ':' in line:
-            k, v = line.split(':', 1)
-            fm[k.strip()] = v.strip().strip('"')
+        
+        # Skip empty lines or lines without colons
+        if ':' not in line:
+            i += 1
+            continue
+        
+        # Parse key: value
+        k, v = line.split(':', 1)
+        k = k.strip()
+        v = v.strip()
+        
+        # Check for multiline block indicator
+        if v == '|':
+            # Collect multiline block (lines starting with 2 spaces)
+            i += 1
+            block_lines = []
+            while i < len(lines) and (lines[i].startswith('  ') or lines[i].strip() == ''):
+                block_lines.append(lines[i][2:] if lines[i].startswith('  ') else '')
+                i += 1
+            fm[k] = '\n'.join(block_lines).strip()
+            # Don't increment i - it's already at the next line
+            continue
+        
+        # Handle quoted values
+        if v.startswith('"') and v.endswith('"'):
+            v = v[1:-1]
+        
+        fm[k] = v
         i += 1
+    
     body = '\n'.join(lines[i:]).strip()
     return fm, body
 
@@ -50,21 +80,69 @@ def get_git_sha_short():
         return 'unknown'
 
 
+def get_file_last_commit_date(filepath):
+    """Get the date of the last commit that modified this file."""
+    try:
+        # git log -1 --format=%cI <file> returns ISO 8601 date of last commit
+        out = subprocess.check_output(
+            ['git', 'log', '-1', '--format=%cI', '--', filepath],
+            cwd=ROOT,
+            stderr=subprocess.DEVNULL
+        )
+        iso_date = out.decode('utf-8').strip()
+        if iso_date:
+            # Parse ISO date and return as YYYY-MM-DD
+            return iso_date.split('T')[0]
+    except Exception:
+        pass
+    # Fallback: use current date
+    return datetime.utcnow().strftime('%Y-%m-%d')
+
+
+def get_file_commit_history(filepath, max_commits=10):
+    """Get the commit history (messages) for a file.
+    Returns a list of commit messages (most recent first).
+    """
+    try:
+        # git log --format=%s -- <file> returns commit subjects (one per line)
+        out = subprocess.check_output(
+            ['git', 'log', f'-{max_commits}', '--format=%s', '--', filepath],
+            cwd=ROOT,
+            stderr=subprocess.DEVNULL
+        )
+        messages = out.decode('utf-8').strip().split('\n')
+        # Filter out empty lines
+        return [msg for msg in messages if msg.strip()]
+    except Exception:
+        return []
+
+
 def build_index():
     items = []
     for path in sorted(glob.glob(os.path.join(FAQ_DIR, '*.md'))):
         with open(path, 'r', encoding='utf-8') as fh:
             text = fh.read()
         fm, body = parse_frontmatter(text)
+        
+        # Extract ID from filename (e.g., "001-question.md" -> "001")
+        filename = os.path.basename(path)
+        file_id = filename.split('-')[0] if '-' in filename else filename.replace('.md', '')
+        
+        # Get last commit date for this file (auto-generated)
+        last_modified = get_file_last_commit_date(path)
+        
+        # Get commit history for this file (auto-generated changelog)
+        commit_history = get_file_commit_history(path, max_commits=10)
+        
         item = {
-            'filename': os.path.basename(path),
-            'id': fm.get('id'),
+            'filename': filename,
+            'id': file_id,  # Extract from filename instead of frontmatter
             'question': fm.get('question'),
             'category': fm.get('category'),
             'turn_order': fm.get('turn_order'),
-            'date': fm.get('date'),
+            'date': last_modified,  # Use git commit date instead of frontmatter
             'referenced_rules': fm.get('referenced_rules'),
-            'change_log': fm.get('change_log'),
+            'change_log': commit_history,  # List of commit messages
             'content': body[:10000]
         }
         items.append(item)
