@@ -1,0 +1,48 @@
+name: Validate and Build FAQ index
+
+on:
+  pull_request:
+    paths:
+      - 'data/faq/**'
+  push:
+    branches: [ main ]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      - name: Install deps
+        run: echo "No deps required"
+      - name: Run validator
+        run: python scripts/validate_faq.py
+
+  build:
+    needs: validate
+    runs-on: ubuntu-latest
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      - name: Build index.json
+        run: python scripts/build_index.py && git status --porcelain
+      - name: Commit index.json
+        run: |
+          git config user.name "faq-bot"
+          git config user.email "faq-bot@example.com"
+          git add index.json || true
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -m "chore(build): update index.json [skip ci]" || true
+            git push origin HEAD:main
+          else
+            echo "No changes"
+          fi
