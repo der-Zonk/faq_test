@@ -99,6 +99,21 @@ def get_file_last_commit_date(filepath):
     return datetime.utcnow().strftime('%Y-%m-%d')
 
 
+def get_file_last_commit_author(filepath):
+    """Get the author name of the last commit that modified this file."""
+    try:
+        # git log -1 --format=%an <file> returns author name of last commit
+        out = subprocess.check_output(
+            ['git', 'log', '-1', '--format=%an', '--', filepath],
+            cwd=ROOT,
+            stderr=subprocess.DEVNULL
+        )
+        author = out.decode('utf-8').strip()
+        return author if author else 'Unknown'
+    except Exception:
+        return 'Unknown'
+
+
 def get_file_commit_history(filepath, max_commits=10):
     """Get the commit history (messages) for a file.
     Returns a list of commit messages (most recent first).
@@ -131,6 +146,9 @@ def build_index():
         # Get last commit date for this file (auto-generated)
         last_modified = get_file_last_commit_date(path)
         
+        # Get last commit author for this file (auto-generated)
+        last_author = get_file_last_commit_author(path)
+        
         # Get commit history for this file (auto-generated changelog)
         commit_history = get_file_commit_history(path, max_commits=10)
         
@@ -141,6 +159,7 @@ def build_index():
             'category': fm.get('category'),
             'turn_order': fm.get('turn_order'),
             'date': last_modified,  # Use git commit date instead of frontmatter
+            'author': last_author,  # Last commit author
             'referenced_rules': fm.get('referenced_rules'),
             'change_log': commit_history,  # List of commit messages
             'content': body[:10000]
