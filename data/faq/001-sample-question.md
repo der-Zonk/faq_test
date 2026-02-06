@@ -10,5 +10,3 @@ When a unit with the Skirmisher trait gives ground, resolve the retreat as follo
 
 1. Check for collisions.
 2. Apply any special rules.
-
-(This is a sample entry.)
