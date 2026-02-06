@@ -1,0 +1,17 @@
+{
+  "allowed_categories": [
+    "Combat",
+    "Movement",
+    "Magic",
+    "Shooting",
+    "Morale",
+    "Characters",
+    "Monsters",
+    "War Machines",
+    "Terrain",
+    "Deployment",
+    "Special Rules",
+    "Army Lists",
+    "General"
+  ]
+}
