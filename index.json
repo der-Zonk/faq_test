@@ -6,6 +6,7 @@
     "category": "Combat",
     "turn_order": "TBD",
     "date": "2026-02-06",
+    "author": "der-Zonk",
     "referenced_rules": "https://tow.whfb.app/unusual-formations/skirmishers-in-combat",
     "change_log": [
       "feat(faq): add proposal What happens when skirmishers give ground?",
