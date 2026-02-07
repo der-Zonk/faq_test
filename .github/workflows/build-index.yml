@@ -65,6 +65,20 @@ jobs:
           rm -rf deploy || true
           mkdir -p deploy/versions
           
+          # Fetch existing version files from gh-pages branch
+          echo "Fetching existing version files from gh-pages..."
+          git fetch origin gh-pages:gh-pages || echo "No gh-pages branch yet"
+          if git show gh-pages:versions/ > /dev/null 2>&1; then
+            # Extract all version files from gh-pages
+            git ls-tree -r --name-only gh-pages | grep "^versions/.*\.json$" | while read file; do
+              mkdir -p "deploy/$(dirname "$file")"
+              git show "gh-pages:$file" > "deploy/$file"
+              echo "Restored from gh-pages: $file"
+            done
+          else
+            echo "No existing versions/ directory on gh-pages"
+          fi
+          
           # Copy index.json (required)
           if [ -f index.json ]; then
             cp -v index.json deploy/
@@ -79,11 +93,12 @@ jobs:
             echo "ERROR: versions.json not found - build step may have failed"; ls -la; exit 1
           fi
           
-          # Copy all version snapshot files (*.json) from versions/ directory
+          # Copy NEW version snapshot files (*.json) from versions/ directory
+          # This will add the new version or overwrite if it already exists
           if [ -d versions ] && [ "$(ls -A versions/*.json 2>/dev/null)" ]; then
             cp -v versions/*.json deploy/versions/
           else
-            echo "Note: No version snapshots found in versions/ directory"
+            echo "Note: No new version snapshots found in versions/ directory"
           fi
           
           echo "Deploy dir contents:"; ls -la deploy
