@@ -8,6 +8,6 @@ referenced_rules: |
 
 When a unit with the Skirmisher trait gives ground, resolve the retreat as follows:
 
-1. Check for collisions.
+
 2. Apply any special rules.
 3. kiss my ass
