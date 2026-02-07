@@ -11,3 +11,4 @@ When a unit with the Skirmisher trait gives ground, resolve the retreat as follo
 1. hug Fred
 2. Apply any special rules.
 3. kiss my ass
+4. be  happy
