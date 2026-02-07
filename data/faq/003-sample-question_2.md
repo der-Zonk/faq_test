@@ -1,6 +1,6 @@
 ---
 turn_order: "TBD"
-category: "data/faq/001-sample-question.md"
+category: "Movement"
 question: "What happens when skirmishers give ground?"
 referenced_rules: |
   https://tow.whfb.app/unusual-formations/skirmishers-in-combat
