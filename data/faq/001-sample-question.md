@@ -1,6 +1,6 @@
 ---
 turn_order: "TBD"
-category: "Combat"
+category: "Army Lists"
 question: "check if now new version by merge pr"
 referenced_rules: |
   https://tow.whfb.app/unusual-formations/skirmishers-in-combat
