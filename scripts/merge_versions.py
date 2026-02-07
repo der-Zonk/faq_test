@@ -6,6 +6,7 @@ Writes merged result to <new_versions_file>.
 """
 import json
 import sys
+import os
 
 def merge_versions(old_file, new_file):
     # Read current (newly built) manifest
@@ -28,6 +29,34 @@ def merge_versions(old_file, new_file):
         merged = new_manifest + old_manifest
     else:
         merged = old_manifest
+
+    # Remove duplicates based on version field, keeping first occurrence
+    seen = set()
+    unique_merged = []
+    for entry in merged:
+        version = entry.get('version')
+        if version and version not in seen:
+            seen.add(version)
+            unique_merged.append(entry)
+        else:
+            print(f"Removing duplicate: {version}")
+    
+    merged = unique_merged
+
+    # Filter: only keep versions for which the file actually exists in versions/ directory
+    # This prevents 404 errors when old version files were deleted
+    versions_dir = 'versions'
+    if os.path.exists(versions_dir):
+        filtered = []
+        for entry in merged:
+            version_file = f"{versions_dir}/{entry.get('version')}.json"
+            if os.path.exists(version_file):
+                filtered.append(entry)
+            else:
+                print(f"Removing entry with missing file: {entry.get('version')}")
+        merged = filtered
+    else:
+        print(f"Warning: versions directory '{versions_dir}' does not exist")
 
     # Keep only last 100 versions
     merged = merged[:100]
