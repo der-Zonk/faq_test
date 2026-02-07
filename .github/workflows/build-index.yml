@@ -101,7 +101,13 @@ jobs:
       
       - name: Build index and versions
         run: |
-          python scripts/build_index.py
+          if [ "${{ steps.check_version.outputs.create_version }}" = "true" ]; then
+            echo "Building index.json AND creating version snapshot"
+            python scripts/build_index.py
+          else
+            echo "Building index.json ONLY (no version snapshot)"
+            SKIP_VERSION=1 python scripts/build_index.py
+          fi
           git status --porcelain
       
       - name: Restore existing version files from gh-pages

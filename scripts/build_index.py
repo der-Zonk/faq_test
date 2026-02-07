@@ -1,9 +1,10 @@
-"""Builds index.json and creates a versioned snapshot + manifest.
+"""Builds index.json and optionally creates a versioned snapshot + manifest.
 
-This script scans `data/faq/*.md`, produces `index.json` (latest), writes
+This script scans `data/faq/*.md`, produces `index.json` (latest), and optionally writes
 `versions/<version>.json` and updates `versions.json` manifest.
 
 Version id is either provided via env BUILD_VERSION or derived from datetime+git sha.
+Set env SKIP_VERSION=1 to only build index.json without creating a version snapshot.
 """
 import os
 import json
@@ -182,6 +183,12 @@ def build_index():
     with open(OUT_INDEX, 'w', encoding='utf-8') as fh:
         json.dump(items, fh, ensure_ascii=False, indent=2)
     print('Wrote', OUT_INDEX)
+
+    # Check if version snapshot should be skipped
+    skip_version = os.environ.get('SKIP_VERSION') == '1'
+    if skip_version:
+        print('SKIP_VERSION=1: Not creating version snapshot')
+        return
 
     # write version snapshot (immutable)
     with open(version_file, 'w', encoding='utf-8') as fh:
