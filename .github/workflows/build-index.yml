@@ -10,6 +10,15 @@ on:
       - 'data/faq/**'
   push:
     branches: [ main ]
+    tags:
+      - 'v*'
+  workflow_dispatch:  # Manual trigger button in GitHub UI
+    inputs:
+      create_version:
+        description: 'Create version snapshot'
+        required: false
+        default: 'true'
+        type: boolean
 
 jobs:
   validate:
@@ -42,12 +51,61 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: '3.11'
+      
+      - name: Check if version snapshot should be created
+        id: check_version
+        run: |
+          # Read config file
+          if [ ! -f .github/version-config.yml ]; then
+            echo "No config found, defaulting to auto mode"
+            echo "create_version=true" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+          
+          MODE=$(grep "^mode:" .github/version-config.yml | awk '{print $2}')
+          echo "Version mode: $MODE"
+          
+          CREATE_VERSION=false
+          
+          case "$MODE" in
+            auto)
+              echo "Auto mode: Creating version on every merge"
+              CREATE_VERSION=true
+              ;;
+            manual)
+              echo "Manual mode: Only via workflow_dispatch"
+              if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+                CREATE_VERSION=true
+              fi
+              ;;
+            tag)
+              echo "Tag mode: Only on git tags"
+              if [[ "${{ github.ref }}" == refs/tags/* ]]; then
+                CREATE_VERSION=true
+              fi
+              ;;
+            message)
+              echo "Message mode: Check commit message for [version]"
+              if git log -1 --pretty=%B | grep -q "\[version\]"; then
+                CREATE_VERSION=true
+              fi
+              ;;
+            *)
+              echo "Unknown mode '$MODE', defaulting to auto"
+              CREATE_VERSION=true
+              ;;
+          esac
+          
+          echo "create_version=$CREATE_VERSION" >> $GITHUB_OUTPUT
+          echo "Will create version snapshot: $CREATE_VERSION"
+      
       - name: Build index and versions
         run: |
           python scripts/build_index.py
           git status --porcelain
       
       - name: Restore existing version files from gh-pages
+        if: steps.check_version.outputs.create_version == 'true'
         run: |
           # Fetch gh-pages branch and restore old version files to versions/ directory
           # This MUST happen before merge_versions.py so it can validate files exist
@@ -66,6 +124,7 @@ jobs:
           fi
       
       - name: Fetch existing versions.json from gh-pages (if exists)
+        if: steps.check_version.outputs.create_version == 'true'
         run: |
           # Try to fetch the existing versions.json from gh-pages to merge history
           # The merge script will now validate that files exist in versions/ directory
@@ -90,20 +149,26 @@ jobs:
             echo "ERROR: index.json not found - build step may have failed"; ls -la; exit 1
           fi
           
-          # Copy versions.json manifest (required for version selector)
-          if [ -f versions.json ]; then
-            cp -v versions.json deploy/
+          # Copy versions.json manifest only if version was created
+          if [ "${{ steps.check_version.outputs.create_version }}" = "true" ]; then
+            if [ -f versions.json ]; then
+              cp -v versions.json deploy/
+            else
+              echo "ERROR: versions.json not found - build step may have failed"; ls -la; exit 1
+            fi
+            
+            # Copy ALL version snapshot files (*.json) from versions/ directory
+            # These include both old (restored from gh-pages) and new (just built)
+            if [ -d versions ] && [ "$(ls -A versions/*.json 2>/dev/null)" ]; then
+              cp -v versions/*.json deploy/versions/
+              echo "Copied $(ls versions/*.json | wc -l) version files"
+            else
+              echo "Warning: No version snapshots found in versions/ directory"
+            fi
           else
-            echo "ERROR: versions.json not found - build step may have failed"; ls -la; exit 1
-          fi
-          
-          # Copy ALL version snapshot files (*.json) from versions/ directory
-          # These include both old (restored from gh-pages) and new (just built)
-          if [ -d versions ] && [ "$(ls -A versions/*.json 2>/dev/null)" ]; then
-            cp -v versions/*.json deploy/versions/
-            echo "Copied $(ls versions/*.json | wc -l) version files"
-          else
-            echo "Warning: No version snapshots found in versions/ directory"
+            echo "Skipping version files (version creation disabled for this run)"
+            # Still create empty versions.json so viewer doesn't break
+            echo "[]" > deploy/versions.json
           fi
           
           echo "Deploy dir contents:"; ls -la deploy

@@ -1,0 +1,13 @@
+# FAQ Version Snapshot Configuration
+# Controls when version snapshots are created
+
+# Mode options:
+#   auto     - Create snapshot on every merge to main (current behavior)
+#   manual   - Only create snapshots via manual workflow trigger
+#   tag      - Only create snapshots when pushing a git tag
+#   message  - Only create snapshots when commit message contains [version]
+
+mode: manual
+
+# Optional: For 'message' mode, customize the trigger keyword
+# trigger_keyword: "[version]"
