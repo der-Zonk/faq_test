@@ -47,10 +47,28 @@ jobs:
           python scripts/build_index.py
           git status --porcelain
       
+      - name: Restore existing version files from gh-pages
+        run: |
+          # Fetch gh-pages branch and restore old version files to versions/ directory
+          # This MUST happen before merge_versions.py so it can validate files exist
+          git fetch origin gh-pages:gh-pages || echo "No gh-pages branch yet"
+          if git show gh-pages:versions/ > /dev/null 2>&1; then
+            echo "Restoring existing version files from gh-pages..."
+            git ls-tree -r --name-only gh-pages | grep "^versions/.*\.json$" | while read file; do
+              mkdir -p "$(dirname "$file")"
+              git show "gh-pages:$file" > "$file"
+              echo "Restored: $file"
+            done
+            echo "Version files in versions/ directory:"
+            ls -la versions/ || echo "No versions/ directory"
+          else
+            echo "No existing versions/ directory on gh-pages"
+          fi
+      
       - name: Fetch existing versions.json from gh-pages (if exists)
         run: |
           # Try to fetch the existing versions.json from gh-pages to merge history
-          git fetch origin gh-pages:gh-pages || echo "No gh-pages branch yet"
+          # The merge script will now validate that files exist in versions/ directory
           if git show gh-pages:versions.json > /tmp/old_versions.json 2>/dev/null; then
             echo "Found existing versions.json on gh-pages, will merge"
             python scripts/merge_versions.py /tmp/old_versions.json versions.json
@@ -64,20 +82,6 @@ jobs:
           echo "Listing repository root:"; ls -la
           rm -rf deploy || true
           mkdir -p deploy/versions
-          
-          # Fetch existing version files from gh-pages branch
-          echo "Fetching existing version files from gh-pages..."
-          git fetch origin gh-pages:gh-pages || echo "No gh-pages branch yet"
-          if git show gh-pages:versions/ > /dev/null 2>&1; then
-            # Extract all version files from gh-pages
-            git ls-tree -r --name-only gh-pages | grep "^versions/.*\.json$" | while read file; do
-              mkdir -p "deploy/$(dirname "$file")"
-              git show "gh-pages:$file" > "deploy/$file"
-              echo "Restored from gh-pages: $file"
-            done
-          else
-            echo "No existing versions/ directory on gh-pages"
-          fi
           
           # Copy index.json (required)
           if [ -f index.json ]; then
@@ -93,12 +97,13 @@ jobs:
             echo "ERROR: versions.json not found - build step may have failed"; ls -la; exit 1
           fi
           
-          # Copy NEW version snapshot files (*.json) from versions/ directory
-          # This will add the new version or overwrite if it already exists
+          # Copy ALL version snapshot files (*.json) from versions/ directory
+          # These include both old (restored from gh-pages) and new (just built)
           if [ -d versions ] && [ "$(ls -A versions/*.json 2>/dev/null)" ]; then
             cp -v versions/*.json deploy/versions/
+            echo "Copied $(ls versions/*.json | wc -l) version files"
           else
-            echo "Note: No new version snapshots found in versions/ directory"
+            echo "Warning: No version snapshots found in versions/ directory"
           fi
           
           echo "Deploy dir contents:"; ls -la deploy
