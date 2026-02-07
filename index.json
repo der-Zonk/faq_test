@@ -14,9 +14,10 @@
       "feat(faq): add proposal What happens when skirmishers give ground?",
       "feat(faq): add proposal What happens when skirmishers give ground?",
       "feat(faq): add proposal What happens when skirmishers give ground?",
+      "feat(faq): add proposal What happens when skirmishers give ground?",
       "initial commit"
     ],
-    "content": "When a unit with the Skirmisher trait gives ground, resolve the retreat as follows:\n\n1.hug Fred\n2. Apply any special rules.\n3. kiss my ass"
+    "content": "When a unit with the Skirmisher trait gives ground, resolve the retreat as follows:\n\n1. hug Fred\n2. Apply any special rules.\n3. kiss my ass"
   },
   {
     "filename": "002-test-compare.md",
