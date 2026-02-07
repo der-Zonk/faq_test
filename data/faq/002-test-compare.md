@@ -1,6 +1,6 @@
 ---
-question: How does the Compare feature work?
-category: Shooting
+category: "Movement"
+question: "How does the Compare feature work?"
 ---
 
 The Compare feature allows you to see differences between two versions:
