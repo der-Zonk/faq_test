@@ -7,8 +7,9 @@
     "turn_order": "TBD",
     "date": "2026-02-07",
     "author": "der-Zonk",
-    "referenced_rules": "https://tow.whfb.app/unusual-formations/skirmishers-in-combat",
+    "referenced_rules": "https://tow.whfb.app/general-principles/artillery-and-scatter-dice, Rulebook p.93",
     "change_log": [
+      "feat(faq): add proposal check if now new version by merge pr",
       "feat(faq): add proposal check if now new version by merge pr",
       "feat(faq): add proposal What happens when skirmishers give ground?",
       "feat(faq): add proposal What happens when skirmishers give ground?",
