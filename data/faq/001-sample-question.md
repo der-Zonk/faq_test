@@ -1,13 +1,12 @@
 ---
-turn_order: "TBD"
-category: "Combat"
-question: "What happens when skirmishers give ground?"
-referenced_rules: |
-  https://tow.whfb.app/unusual-formations/skirmishers-in-combat
+category: "Movement"
+question: "How does the Compare feature work?"
 ---
 
-When a unit with the Skirmisher trait gives ground, resolve the retreat as follows:
+The Compare feature allows you to see differences between two versions:
 
-1.hug Fred
-2. Apply any special rules.
-3. kiss my ass
+1. **Added FAQs** - shown in green
+2. **Modified FAQs** - shown in yellow with detailed field changes
+3. **Deleted FAQs** - shown in red with strikethrough
+
+This makes it easy to track what changed between deployments!
