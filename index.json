@@ -16,5 +16,35 @@
       "initial commit"
     ],
     "content": "When a unit with the Skirmisher trait gives ground, resolve the retreat as follows:\n\n\n2. Apply any special rules.\n3. kiss my ass"
+  },
+  {
+    "filename": "002-test-compare.md",
+    "id": "002",
+    "question": "How does the Compare feature work?",
+    "category": "Shooting",
+    "turn_order": null,
+    "date": "2026-02-07",
+    "author": "Andreas Schmidt",
+    "referenced_rules": null,
+    "change_log": [
+      "fix(faq): update category for Compare feature and add new skirmisher question",
+      "feat(faq): add documentation for Compare feature functionality"
+    ],
+    "content": "The Compare feature allows you to see differences between two versions:\n\n1. **Added FAQs** - shown in green\n2. **Modified FAQs** - shown in yellow with detailed field changes\n3. **Deleted FAQs** - shown in red with strikethrough\n\nThis makes it easy to track what changed between deployments!"
+  },
+  {
+    "filename": "003-sample-question_2.md",
+    "id": "003",
+    "question": "What happens when skirmishers give ground?",
+    "category": "Movement",
+    "turn_order": "TBD",
+    "date": "2026-02-07",
+    "author": "Andreas Schmidt",
+    "referenced_rules": "https://tow.whfb.app/unusual-formations/skirmishers-in-combat",
+    "change_log": [
+      "fix(faq): update category for skirmisher question to Movement",
+      "fix(faq): update category for Compare feature and add new skirmisher question"
+    ],
+    "content": "When a unit with the Skirmisher trait gives ground, resolve the retreat as follows:\n\n\n2. Apply any special rules.\n3. kiss my ass"
   }
 ]
