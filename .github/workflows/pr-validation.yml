@@ -1,0 +1,35 @@
+name: PR Validation
+
+on:
+  pull_request:
+    paths:
+      - 'data/faq/**'
+      - 'scripts/**'
+      - 'config.json'
+
+jobs:
+  validate-faq:
+    name: Validate FAQ Entries
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+          
+      - name: Run FAQ validator
+        run: python scripts/validate_faq.py
+        
+      - name: Validation passed
+        if: success()
+        run: echo "✅ All FAQ entries are valid!"
+        
+      - name: Validation failed
+        if: failure()
+        run: |
+          echo "❌ FAQ validation failed!"
+          echo "Please fix the errors shown above before merging."
+          exit 1

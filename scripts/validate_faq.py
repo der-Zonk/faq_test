@@ -98,7 +98,13 @@ def validate():
         if not fm.get('question'):
             print(f'ERROR {fname}: missing question field')
             errors += 1
-            continue
+        
+        if not fm.get('answer'):
+            print(f'ERROR {fname}: missing answer field')
+            errors += 1
+        
+        # Skip further checks if required fields are missing
+        if not fm.get('question') or not fm.get('answer'):
             continue
         
         # Check duplicate IDs (from filenames)
