@@ -69,6 +69,7 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Hits that Inflict Multiple Wounds CRB 143\nMultiple Wounds (X) CRB 175\nOverkill and Champions GW FAQ 1.5.1 11\nOverkill CRB 211",
     "change_log": [
+      "add missing whitespace",
       "fix faq format error",
       "add current comp faq"
     ],
