@@ -152,6 +152,13 @@ jobs:
             echo "ERROR: index.json not found - build step may have failed"; ls -la; exit 1
           fi
           
+          # Copy config.json if it exists
+          if [ -f config.json ]; then
+            cp -v config.json deploy/
+          else
+            echo "WARNING: config.json not found"
+          fi
+          
           # ALWAYS copy versions.json and version files (to preserve history)
           if [ -f versions.json ]; then
             cp -v versions.json deploy/
