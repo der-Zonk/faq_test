@@ -153,6 +153,13 @@ def build_index():
         # Get commit history for this file (auto-generated changelog)
         commit_history = get_file_commit_history(path, max_commits=10)
         
+        # Determine the content for the index: prefer the markdown body (canonical),
+        # fall back to an 'answer' frontmatter key for legacy files.
+        if body and body.strip():
+            content_text = body.strip()
+        else:
+            content_text = (fm.get('answer') or '').strip()
+
         item = {
             'filename': filename,
             'id': file_id,  # Extract from filename instead of frontmatter
@@ -163,7 +170,7 @@ def build_index():
             'author': last_author,  # Last commit author
             'referenced_rules': fm.get('referenced_rules'),
             'change_log': commit_history,  # List of commit messages
-            'content': body[:10000]
+            'content': content_text
         }
         items.append(item)
 
