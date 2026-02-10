@@ -1,0 +1,10 @@
+---
+turn_order: "2-3 Movement Phase Compulsory Moves"
+category: "Special Rules"
+question: "Can a Model with the special rule Random Movement use Fly (X) to move over units?"
+referenced_rules: |
+  Random Movement CRB 176Fly (X) CRB 170
+change_log: |
+  25.04. Added Random Movement
+---
+No, Random Movement is not based on the movement characteristic, hence the unit cannot use the special rule Fly(X). Random Movement Units move in the compulsory movement phase and therefore neither march, charge or manoeuvre.
