@@ -5,5 +5,6 @@ question: "What happens when a unit with Random Movement makes a Pursuit, Overru
 referenced_rules: |
   Random Movement CRB 176
   GW FAQ
+answer: |
+  Only use Random Movement during the Compulsory Movement phase or any movement based on the unit's Movement characteristic. For all other movement types (e.g., FBIGO, fleeing, pursuing etc.), follow the rules for the relevant move type as stated in the rulebook, including distance rolls.
 ---
-Only use Random Movement during the Compulsory Movement phase or any movement based on the unit's Movement characteristic. For all other movement types (e.g., FBIGO, fleeing, pursuing etc.), follow the rules for the relevant move type as stated in the rulebook, including distance rolls.

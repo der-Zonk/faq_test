@@ -4,5 +4,6 @@ category: "Characters"
 question: "Can a champion move through the ranks?"
 referenced_rules: |
   Moving through the Ranks CRB 208
+answer: |
+  No, only non-champion characters are allowed to do so.
 ---
-No, only non-champion characters are allowed to do so.

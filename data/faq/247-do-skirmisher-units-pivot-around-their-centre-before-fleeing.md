@@ -4,5 +4,6 @@ category: "Skirmishers"
 question: "Do Skirmisher Units pivot around their centre before fleeing?"
 referenced_rules: |
   Skirmishers CRB 184f
+answer: |
+  No, Skirmishers are moved on a model-to-model base therefore do not pivot the unit
 ---
-No, Skirmishers are moved on a model-to-model base therefore do not pivot the unit

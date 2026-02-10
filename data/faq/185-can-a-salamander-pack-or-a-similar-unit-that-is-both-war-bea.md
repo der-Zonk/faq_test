@@ -5,5 +5,6 @@ question: "Can a Salamander Pack or a similar unit that is both War beasts and R
 referenced_rules: |
   Lizardmen
   Beastmen Primal Wardogs
+answer: |
+  No, the War Beast Troop Type gives the unit the undisciplined special rule
 ---
-No, the War Beast Troop Type gives the unit the undisciplined special rule

@@ -4,5 +4,6 @@ category: "Skirmishers"
 question: "Since skirmishers require line of sight from more than 50% the models in the unit to declare a charge, is this also required for a counter charge?"
 referenced_rules: |
   GW FAQ
+answer: |
+  Yes, a unit can only use Counter Charge against an enemy they are allowed to charge.
 ---
-Yes, a unit can only use Counter Charge against an enemy they are allowed to charge.

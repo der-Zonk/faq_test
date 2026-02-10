@@ -5,5 +5,6 @@ question: "Can a unit with Random movement, or a unit that failed its stupidity 
 referenced_rules: |
   GW FAQ
   Random Movement CRB 176
+answer: |
+  Yes, the restrictions on not being able to perform manoeuvres are only applied when moving with their random movement dice or Movement characteristic.
 ---
-Yes, the restrictions on not being able to perform manoeuvres are only applied when moving with their random movement dice or Movement characteristic.

@@ -6,5 +6,6 @@ referenced_rules: |
   Who can fight CRB 145
   How many attacks? CRB 146
   Multiple Units in Combat CRB 147
+answer: |
+  Since "the unit" is specified in the FAQ about fighting ranks, only the models within M" of Unit C can attack that unit. Please note that these models only get to make 1 A, regardless if they are in base contact with B or not.
 ---
-Since "the unit" is specified in the FAQ about fighting ranks, only the models within M" of Unit C can attack that unit. Please note that these models only get to make 1 A, regardless if they are in base contact with B or not.

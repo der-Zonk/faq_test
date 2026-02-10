@@ -6,5 +6,6 @@ referenced_rules: |
   Terror CRB 179Charge Reactions Flee CRB 120
 change_log: |
   Changed to cover the whole sequence
+answer: |
+  The leadership test is done as soon as the unit causing terror has declared a charge, even before finishing to declare all other charges. The flee move is performed with the other charge reactions, after all charges have been declared.
 ---
-The leadership test is done as soon as the unit causing terror has declared a charge, even before finishing to declare all other charges. The flee move is performed with the other charge reactions, after all charges have been declared.

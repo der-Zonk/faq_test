@@ -6,5 +6,6 @@ referenced_rules: |
   FanaticsMagic Vortex
 change_log: |
   18.04.25: Entered15.08.25: Wording change
+answer: |
+  Choose before rolling. RAW is ambiguous, and the functional difference is minimal. This is less a "correct" answer and more of having something in place to keep the game flowing.
 ---
-Choose before rolling. RAW is ambiguous, and the functional difference is minimal. This is less a "correct" answer and more of having something in place to keep the game flowing.

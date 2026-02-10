@@ -6,5 +6,6 @@ referenced_rules: |
   GW FAQ
 change_log: |
   Entry: 13.08.258.11.25: Changed to differntiate between shooting and charging
+answer: |
+  It is applied for Shooting, but not for charging. Use the Skirmisher LoS rules for charging. For Shooting, the character ignores other models of the same unit.
 ---
-It is applied for Shooting, but not for charging. Use the Skirmisher LoS rules for charging. For Shooting, the character ignores other models of the same unit.

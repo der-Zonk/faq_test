@@ -4,5 +4,6 @@ category: "Magic"
 question: "How many spells does a Cathay L4 wizard equipped with the Scrolls of Wei-jin and the Learned Feng Shi Bo know?"
 referenced_rules: |
   Grand Cathay
+answer: |
+  5 Spells
 ---
-5 Spells

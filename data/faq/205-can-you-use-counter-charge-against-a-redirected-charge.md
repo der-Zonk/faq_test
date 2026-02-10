@@ -4,5 +4,6 @@ category: "Special Rules"
 question: "Can you use counter charge against a redirected charge?"
 referenced_rules: |
   Redirecting a Charge CRB 129
+answer: |
+  No, only hold or flee are possible against a redirected charge.
 ---
-No, only hold or flee are possible against a redirected charge.

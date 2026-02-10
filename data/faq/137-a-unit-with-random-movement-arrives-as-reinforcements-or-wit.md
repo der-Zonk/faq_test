@@ -7,5 +7,6 @@ referenced_rules: |
   Accidental Contact CRB 131
   Pursuit off the Battlefield CRB 157
   Random Movement CRB 176
+answer: |
+  Yes, it did not move yet using its random movement rule. Please note that if the model is able to make contact with an enemy unit it may do so and counts as having charged.
 ---
-Yes, it did not move yet using its random movement rule. Please note that if the model is able to make contact with an enemy unit it may do so and counts as having charged.

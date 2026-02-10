@@ -5,5 +5,6 @@ question: "When do you determine which models can attack during a combat? For ex
 referenced_rules: |
   Choose Combat &
   Determine Who Can Fight CRB 145ff
+answer: |
+  When the combat is chosen, after challenges are issued and characters moved through the ranks, check which models are in which fighting rank and whom they can attack. Models that step into a fighting rank later or that are added later to a fighting rank cannot attack in that fighting rank. See also ID356.
 ---
-When the combat is chosen, after challenges are issued and characters moved through the ranks, check which models are in which fighting rank and whom they can attack. Models that step into a fighting rank later or that are added later to a fighting rank cannot attack in that fighting rank. See also ID356.

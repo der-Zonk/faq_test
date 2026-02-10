@@ -5,5 +5,6 @@ question: "When a Warband unit makes a leadership test and uses the Inspiring Pr
 referenced_rules: |
   Warband CRB 180
   GW FAQ
+answer: |
+  Only the warband modifier of the Generals unit (if he is in a warband unit) is used. If the general is not in a warband unit, then no warband modifier can be claimed.
 ---
-Only the warband modifier of the Generals unit (if he is in a warband unit) is used. If the general is not in a warband unit, then no warband modifier can be claimed.

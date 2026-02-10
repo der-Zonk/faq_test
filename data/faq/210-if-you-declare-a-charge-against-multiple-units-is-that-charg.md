@@ -5,5 +5,6 @@ question: "If you declare a charge against multiple units, is that charge a fail
 referenced_rules: |
   Multiple Charge Targets CRB 130
   Accidental Contact during a Charge CRB 131
+answer: |
+  No, this is still a valid charge.
 ---
-No, this is still a valid charge.

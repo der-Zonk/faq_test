@@ -5,5 +5,6 @@ question: "Can the Battle Standard be \"claimed as a trophy\" in the same way as
 referenced_rules: |
   Trophies of War CRB 286
   Standards CRB 152
+answer: |
+  Yes, and the Victory Points obtained are cumulative to the Victory Points granted for slaying the BSB.
 ---
-Yes, and the Victory Points obtained are cumulative to the Victory Points granted for slaying the BSB.

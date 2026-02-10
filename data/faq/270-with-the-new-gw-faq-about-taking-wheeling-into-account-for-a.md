@@ -5,5 +5,6 @@ question: "With the new GW FAQ about taking wheeling into account for allowing c
 referenced_rules: |
   GW FAQ
   Swiftstride CRB 178
+answer: |
+  The opponent unit has to be both within M+9 maximum charge range and it has to be possible to conduct the charge with M+9 including the wheels.
 ---
-The opponent unit has to be both within M+9 maximum charge range and it has to be possible to conduct the charge with M+9 including the wheels.

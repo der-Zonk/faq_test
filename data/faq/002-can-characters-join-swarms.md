@@ -9,5 +9,6 @@ referenced_rules: |
   Loner CRB 172
 change_log: |
   12.01.2026 Changed wording for clarification
+answer: |
+  Yes, if they are not prevented from joining them by special rules (Unbreakable, Loner, Fly, Ethereal) or different troop type and skirmish formation.
 ---
-Yes, if they are not prevented from joining them by special rules (Unbreakable, Loner, Fly, Ethereal) or different troop type and skirmish formation.

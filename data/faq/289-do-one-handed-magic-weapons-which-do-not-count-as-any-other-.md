@@ -4,5 +4,6 @@ category: "Basic Rules"
 question: "Do one-handed magic weapons, which do not count as any other weapon type, qualify for the Parry special rule of Infantry?"
 referenced_rules: |
   GW FAQ
+answer: |
+  Only if the weapon is specifically stated to be or count as hand weapon (right now that is only the wollopa one hit wounda after use)
 ---
-Only if the weapon is specifically stated to be or count as hand weapon (right now that is only the wollopa one hit wounda after use)

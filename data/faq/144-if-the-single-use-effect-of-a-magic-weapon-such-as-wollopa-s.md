@@ -5,5 +5,6 @@ question: "If the single-use effect of a magic weapon, such as Wollopa’s One H
 referenced_rules: |
   Single use magic items CRB 337
   Wollopas One Hit wunda RH 43
+answer: |
+  No, Wollopa’s One Hit Wunda continues to count as a magical hand weapon even after its single-use effect is expended. Since it remains a magic item, you are not permitted to switch to another mundane weapon in that combat. Remember, general rules for switching weapons between rounds of combat still apply.
 ---
-No, Wollopa’s One Hit Wunda continues to count as a magical hand weapon even after its single-use effect is expended. Since it remains a magic item, you are not permitted to switch to another mundane weapon in that combat. Remember, general rules for switching weapons between rounds of combat still apply.

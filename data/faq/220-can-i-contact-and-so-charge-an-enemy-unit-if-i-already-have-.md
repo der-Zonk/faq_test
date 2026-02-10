@@ -4,5 +4,6 @@ category: "Basic Rules"
 question: "Can I contact (and so charge) an enemy unit if I already have redirected the charge of this unit this turn?"
 referenced_rules: |
   Accidental Contact During A Charge CRB 131
+answer: |
+  Yes, the unit count as redirecting, but it has not redirected.
 ---
-Yes, the unit count as redirecting, but it has not redirected.

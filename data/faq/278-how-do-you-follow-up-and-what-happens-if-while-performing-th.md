@@ -7,5 +7,6 @@ referenced_rules: |
   Follow Up CRB 156
 change_log: |
   26.06.2025 Entered18.11.2025 Amended Wording
+answer: |
+  To conduct a follow up move, do the opposite of give ground: move directly towards the enemy unit that gave ground, without turning, pivoting or otherwise changing its facing in any way until you make contact or until you stop because of contact with an impassable terrain or friendly unit. If you contact another enemy unit, this is accidental contact (pg. 131). if the enemy unit is contacted in the rear or flank, or if it is already in combat, nudge that unit and any units it is in combat with) aside and conduct the follow up move. If the enemy unit is contacted in its front, it can chose to accept the combat, effectively stopping the follow up move or give ground to avoid it.
 ---
-To conduct a follow up move, do the opposite of give ground: move directly towards the enemy unit that gave ground, without turning, pivoting or otherwise changing its facing in any way until you make contact or until you stop because of contact with an impassable terrain or friendly unit. If you contact another enemy unit, this is accidental contact (pg. 131). if the enemy unit is contacted in the rear or flank, or if it is already in combat, nudge that unit and any units it is in combat with) aside and conduct the follow up move. If the enemy unit is contacted in its front, it can chose to accept the combat, effectively stopping the follow up move or give ground to avoid it.

@@ -6,5 +6,6 @@ referenced_rules: |
   Magical Vortexes GW FAQ 1.5.1 8
 change_log: |
   Change Wording Request to adapt for new FAQ
+answer: |
+  No. Fly(X) allows the unit to move over physical terrain features without penalty, but Magical Vortexes and areas affected by a spell are not terrain features. "Magical Vortexes are considered tall enough to affect even models flying high above the battlefield", so units that Fly through them or their area of effect are affected as any other unit (e.g. -1 to movement, low dice if charging, dangerous terrain tests, blocked by impassable, damage from vortexes).
 ---
-No. Fly(X) allows the unit to move over physical terrain features without penalty, but Magical Vortexes and areas affected by a spell are not terrain features. "Magical Vortexes are considered tall enough to affect even models flying high above the battlefield", so units that Fly through them or their area of effect are affected as any other unit (e.g. -1 to movement, low dice if charging, dangerous terrain tests, blocked by impassable, damage from vortexes).

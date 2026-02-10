@@ -6,5 +6,6 @@ referenced_rules: |
   Vampire Counts Invocation of Nehek 5Tomb Kings Arise! RH 128Resurrecting the Fallen RH 154Resurrecting the Fallen Vampire Counts 28
 change_log: |
   13.02.25 Changed due to majority vote
+answer: |
+  You can use the rule and resurrect models, but only place them in coherency of models that were present at the start of the phase.
 ---
-You can use the rule and resurrect models, but only place them in coherency of models that were present at the start of the phase.

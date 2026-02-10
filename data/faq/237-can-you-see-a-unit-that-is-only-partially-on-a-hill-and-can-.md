@@ -6,5 +6,6 @@ referenced_rules: |
   GW FAQ
   Vantage Point CRB 271
   Beyond the Crest CRB 271
+answer: |
+  Yes, given no other unit closer to the center of that hill obstructs that LoS. Also Models partial on a hill see over models that are not on that hill.
 ---
-Yes, given no other unit closer to the center of that hill obstructs that LoS. Also Models partial on a hill see over models that are not on that hill.

@@ -7,5 +7,6 @@ referenced_rules: |
   Lores of Magic CRB 106
 change_log: |
   12.01.2026 Updated Wording and result
+answer: |
+  Yes. GW did issue an errata to the other wizards and did not issue an errata to these two. It was not a generalized FAQ, so the wordign remains. Therefore, the exceptions may have access to multiple Lores at the same time.
 ---
-Yes. GW did issue an errata to the other wizards and did not issue an errata to these two. It was not a generalized FAQ, so the wordign remains. Therefore, the exceptions may have access to multiple Lores at the same time.

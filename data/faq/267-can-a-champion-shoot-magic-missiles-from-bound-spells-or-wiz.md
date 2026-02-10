@@ -5,5 +5,6 @@ question: "Can a champion shoot magic missiles (from bound spells or wizarding h
 referenced_rules: |
   Characters and Shooting CRB 209
   Champions CRB 199
+answer: |
+  Yes, the wording for characters on 209 is the same as for champions on 199. This heavily implies that the exemption also counts for champions.
 ---
-Yes, the wording for characters on 209 is the same as for champions on 199. This heavily implies that the exemption also counts for champions.

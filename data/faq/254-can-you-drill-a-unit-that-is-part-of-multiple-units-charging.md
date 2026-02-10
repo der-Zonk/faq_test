@@ -5,5 +5,6 @@ question: "Can you drill a unit that is part of multiple units charging an unit 
 referenced_rules: |
   Drilled CRB 167
   Multiple Charging Units CRB 130
+answer: |
+  No, Drilled takes place before the charge move and the units are considered to move simultaneously. Would the units charge different targets, the active player could first move the blocking units away and drill then. With multiple units charging the same target, this is not possible.
 ---
-No, Drilled takes place before the charge move and the units are considered to move simultaneously. Would the units charge different targets, the active player could first move the blocking units away and drill then. With multiple units charging the same target, this is not possible.

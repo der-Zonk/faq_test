@@ -5,5 +5,6 @@ question: "Low linear obstacles and Flank Charges - the rules only state the uni
 referenced_rules: |
   GW FAQ
   Defended Low Linear Obstacle CRB 270
+answer: |
+  Only the Front arc counts as being defended, even for a LLO that is magically summoned or an entrenched unit. If the charging unit charges on the flank and has not sufficient movement to charge around the LLO to get into the flank, it is allowed to straddle the LLO and charge through difficult terrain, ending up disrupted.
 ---
-Only the Front arc counts as being defended, even for a LLO that is magically summoned or an entrenched unit. If the charging unit charges on the flank and has not sufficient movement to charge around the LLO to get into the flank, it is allowed to straddle the LLO and charge through difficult terrain, ending up disrupted.

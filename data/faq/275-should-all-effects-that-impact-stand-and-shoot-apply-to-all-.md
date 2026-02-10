@@ -5,5 +5,6 @@ question: "Should all effects that impact stand and shoot apply to all rules tha
 referenced_rules: |
   Stand & Shoot CRB 120
   Fire & Flee CRB 169
+answer: |
+  Yes, errata all rules that impact stand and shoot to apply to any rule that uses it as part of its functions (Banner of Chalons, Quick Shot)
 ---
-Yes, errata all rules that impact stand and shoot to apply to any rule that uses it as part of its functions (Banner of Chalons, Quick Shot)

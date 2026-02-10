@@ -6,5 +6,6 @@ referenced_rules: |
   Pursuit CRB 156Evade CRB 206
 change_log: |
   Changed due to vote shift
+answer: |
+  No, the Pursuit Move is still part of the combat. Until the end of Step 4 both units count as being engaged in combat for this purpose.
 ---
-No, the Pursuit Move is still part of the combat. Until the end of Step 4 both units count as being engaged in combat for this purpose.

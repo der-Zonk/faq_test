@@ -5,5 +5,6 @@ question: "What happens when only a few skirmishers are moved off the board, whi
 referenced_rules: |
   Skirmishers CRB 184f
   GW FAQ
+answer: |
+  The whole unit is remove from the game
 ---
-The whole unit is remove from the game

@@ -6,5 +6,6 @@ referenced_rules: |
   Shield of the Lady FOF 87
 change_log: |
   31.01.25 Changed as the rule books says units do not block line of sight
+answer: |
+  Yes, "units do not block the character's line of sight", so its perfectly possible to cast magic missiles.
 ---
-Yes, "units do not block the character's line of sight", so its perfectly possible to cast magic missiles.

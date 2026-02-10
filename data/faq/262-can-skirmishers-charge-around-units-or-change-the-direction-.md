@@ -4,5 +4,6 @@ category: "Skirmishers"
 question: "Can skirmishers charge around units or change the direction multiple times during a charge?"
 referenced_rules: |
   Charge Move CRB 126
+answer: |
+  No, skirmishers have to adhere to the overall guidelines of charging and are therefore only allowed to change direction once.
 ---
-No, skirmishers have to adhere to the overall guidelines of charging and are therefore only allowed to change direction once.

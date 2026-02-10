@@ -5,5 +5,6 @@ question: "What happens when a model with a shooting attack that wounds against 
 referenced_rules: |
   Split Profile CRB 97
   Split Profile Warmachines CRB 197
+answer: |
+  Use the initiative value elsewhere on the model (the crew)
 ---
-Use the initiative value elsewhere on the model (the crew)

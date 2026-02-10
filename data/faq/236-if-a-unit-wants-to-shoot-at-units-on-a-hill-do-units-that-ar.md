@@ -6,5 +6,6 @@ referenced_rules: |
   GW FAQ
   Vantage Point CRB 271
   Beyond the Crest CRB 271
+answer: |
+  No, since they can see you over that unit, you can see them too - the rules for being closer to the center of the hill works both ways, imagine the unit closer to the center being higher elevated.
 ---
-No, since they can see you over that unit, you can see them too - the rules for being closer to the center of the hill works both ways, imagine the unit closer to the center being higher elevated.

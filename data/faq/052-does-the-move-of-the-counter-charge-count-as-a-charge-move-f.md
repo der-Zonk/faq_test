@@ -6,5 +6,6 @@ referenced_rules: |
   Charge Move CRB 121Counter Charge CRB 167Furious Charge CRB 171Impact Hits CRB 172
 change_log: |
   Changed due to majority vote
+answer: |
+  Yes, since GW states in the FAQ that a counter-charge is, in fact, a charge
 ---
-Yes, since GW states in the FAQ that a counter-charge is, in fact, a charge

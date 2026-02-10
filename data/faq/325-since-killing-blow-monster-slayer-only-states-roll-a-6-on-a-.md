@@ -6,5 +6,6 @@ referenced_rules: |
   Ethereal CRB 167
   Killing Blow CRB 172
   Monster Slayer CRB 173
+answer: |
+  No! Killing Blow / Monster Slayer states that there has to be an "unsaved wound" for it to work - but Ethereal units can only be wounded by magical attacks.
 ---
-No! Killing Blow / Monster Slayer states that there has to be an "unsaved wound" for it to work - but Ethereal units can only be wounded by magical attacks.

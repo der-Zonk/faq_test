@@ -6,5 +6,6 @@ referenced_rules: |
   GW FAQ
   Vantage Point CRB 271
   Beyond the Crest CRB 271
+answer: |
+  Yes
 ---
-Yes

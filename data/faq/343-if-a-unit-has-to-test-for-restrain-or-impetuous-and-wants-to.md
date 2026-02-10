@@ -5,5 +5,6 @@ question: "If a unit has to test for Restrain or Impetuous and wants to use the 
 referenced_rules: |
   Warband CRB 180
   GW FAQ
+answer: |
+  Yes. The unit uses the modified leadership of the general via Inspiring Presence and does not use the Warband Modifier - the General uses it. The GW FAQ notes that only "a Warband" and thus the unit itself cannot use it.
 ---
-Yes. The unit uses the modified leadership of the general via Inspiring Presence and does not use the Warband Modifier - the General uses it. The GW FAQ notes that only "a Warband" and thus the unit itself cannot use it.

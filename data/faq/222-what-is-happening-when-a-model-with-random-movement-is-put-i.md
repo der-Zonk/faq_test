@@ -5,5 +5,6 @@ question: "What is happening when a model with random movement is put in base co
 referenced_rules: |
   GW FAQ
   Random Movement CRB 176
+answer: |
+  The unit is destroyed - no charge reaction is given when being contacted by a unit with random movement.
 ---
-The unit is destroyed - no charge reaction is given when being contacted by a unit with random movement.

@@ -6,5 +6,6 @@ referenced_rules: |
   Power Scroll CRB 343
 change_log: |
   Generalized mechanics (was only Dark Elves before)
+answer: |
+  You would roll 4 dice
 ---
-You would roll 4 dice

@@ -5,5 +5,6 @@ question: "Can characters without the ambush special rule join a unit with ambus
 referenced_rules: |
   Reserves CRB 285
   Ambushers CRB 166
+answer: |
+  No
 ---
-No

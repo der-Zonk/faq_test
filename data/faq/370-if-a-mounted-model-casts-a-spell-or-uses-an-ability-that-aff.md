@@ -5,5 +5,6 @@ question: "If a mounted model casts a spell or uses an ability that affects the 
 referenced_rules: |
   Split Profile CRB 97
   GW FAQ
+answer: |
+  No. A spell or ability that specifies the caster gaining an effect will only affect the wizard itself and not their mount.
 ---
-No. A spell or ability that specifies the caster gaining an effect will only affect the wizard itself and not their mount.

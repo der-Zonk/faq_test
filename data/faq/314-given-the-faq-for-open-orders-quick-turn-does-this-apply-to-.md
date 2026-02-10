@@ -5,5 +5,6 @@ question: "Given the FAQ for Open Orders Quick Turn - does this apply to Lumberi
 referenced_rules: |
   Lumbering CRB 195
   GW FAQ
+answer: |
+  Only Quick Turn is mentioned, Lumbering can still be used outside of sequence
 ---
-Only Quick Turn is mentioned, Lumbering can still be used outside of sequence

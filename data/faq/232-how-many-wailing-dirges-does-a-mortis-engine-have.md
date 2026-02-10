@@ -4,5 +4,6 @@ category: "Special Rules"
 question: "How many wailing dirges does a Mortis engine have?"
 referenced_rules: |
   Vampire Counts
+answer: |
+  You only do one wailing dirge attack for the whole mortis engine.
 ---
-You only do one wailing dirge attack for the whole mortis engine.

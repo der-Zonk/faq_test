@@ -7,5 +7,6 @@ referenced_rules: |
   Who Strikes first? CRB 146
 change_log: |
   04.02.2025 added22.07.2025: changed wording
+answer: |
+  The free Wheel takes place after making contact. It is separated from the charge move, both for placement and initiative.
 ---
-The free Wheel takes place after making contact. It is separated from the charge move, both for placement and initiative.

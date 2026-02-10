@@ -6,5 +6,6 @@ referenced_rules: |
   Orcs and Goblins
 change_log: |
   27.6.25: Added with corrupted wording3.7.25: Wording corrected
+answer: |
+  No they can't, they just get Poison on natural 5+ instead of 6 if they already had poison before.
 ---
-No they can't, they just get Poison on natural 5+ instead of 6 if they already had poison before.

@@ -5,5 +5,6 @@ question: "Can stomp attacks in a challenge be also directed towards the unit?"
 referenced_rules: |
   GW FAQ
   Stomp Attacks CRB 177
+answer: |
+  No
 ---
-No

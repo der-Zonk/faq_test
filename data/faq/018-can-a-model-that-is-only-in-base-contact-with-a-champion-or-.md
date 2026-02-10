@@ -6,5 +6,6 @@ referenced_rules: |
   Choose Combat & Determine Who Can Fight CRB 145 - 146Multiple Units in Combat CRB 147Characters in Combat 209
 change_log: |
   14.07.24 Changed due to majority vote13.02.25 Changed due to majority vote15.08.25 Wording Change (Question)
+answer: |
+  Yes, the rules which force units to allocate attacks are only relevant for multiple units, but characters and the unit forme one single unit, you can allocate attacks to the unit.
 ---
-Yes, the rules which force units to allocate attacks are only relevant for multiple units, but characters and the unit forme one single unit, you can allocate attacks to the unit.

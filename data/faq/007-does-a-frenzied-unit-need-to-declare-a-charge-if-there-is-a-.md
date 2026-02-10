@@ -6,5 +6,6 @@ referenced_rules: |
   Frenzy, Impetuous GW FAQ 1.5.1 9
 change_log: |
   Changed due to majority vote
+answer: |
+  No, the frenzied unit only has to declare a charge if the blocking unit is declaring a charge but the blocking unit is not obliged to do so
 ---
-No, the frenzied unit only has to declare a charge if the blocking unit is declaring a charge but the blocking unit is not obliged to do so

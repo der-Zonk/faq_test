@@ -73,14 +73,21 @@ def write_md(out_dir: Path, row: dict, force=False):
         for line in change_log.splitlines():
             fm_lines.append('  ' + line.rstrip())
 
+    # Close frontmatter and add the ruling as `answer` block scalar so the
+    # validator (which expects an `answer` field) finds it.
+    fm_lines.append('')
+    ruling = (row.get('Ruling') or row.get('ruling') or '').strip()
+    if ruling:
+        fm_lines.append('answer: |')
+        for line in ruling.splitlines():
+            fm_lines.append('  ' + line.rstrip())
     fm_lines.append('---')
     fm_lines.append('')
 
-    body = (row.get('Ruling') or row.get('Ruling'.lower()) or '').strip()
-    if not body:
-        body = ''
-
-    content = '\n'.join(fm_lines) + body + '\n'
+    # In previous versions we wrote the ruling as the markdown body. The
+    # validator expects an `answer` field in frontmatter, so we store it
+    # there. For compatibility, we also leave no duplicate body content.
+    content = '\n'.join(fm_lines) + '\n'
 
     out_dir.mkdir(parents=True, exist_ok=True)
     with target.open('w', encoding='utf-8') as fh:

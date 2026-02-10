@@ -6,5 +6,6 @@ referenced_rules: |
   Multiple Wounds CRB 176Cumulative Effects CRB 165
 change_log: |
   Changed option to D3+1
+answer: |
+  It would be D3 +1 as MW (2) is effectively Wounds (+1)
 ---
-It would be D3 +1 as MW (2) is effectively Wounds (+1)

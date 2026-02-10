@@ -6,5 +6,6 @@ referenced_rules: |
   Refusing a Challenge 210Nowhere to Run CRB 211
 change_log: |
   Changed to Nowhere to run applies and challenge cannot be refused (31.07.24)
+answer: |
+  No, since you are only allowed to Redress the Ranks during a reform, Nowhere to Run applies and the challenge may not be refused.
 ---
-No, since you are only allowed to Redress the Ranks during a reform, Nowhere to Run applies and the challenge may not be refused.

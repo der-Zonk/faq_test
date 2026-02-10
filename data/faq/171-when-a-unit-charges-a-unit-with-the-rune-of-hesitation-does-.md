@@ -5,5 +5,6 @@ question: "When a unit charges a unit with the rune of hesitation, does the init
 referenced_rules: |
   Dwarves Master Rune of Hesitation FOF 37
   Who Strikes first? CRB 146
+answer: |
+  The initiative bonus applies since it is not a special rule. You lose any special rule on weapons and of the unit that have a relation to charging - a cavalry spear's fighting in second rank is useable, it's S and AP bonus are not. Magic weapons still have to be used (if equipped, a lance cannot be chosen), but their charge bonus is lost. The unit is not allowed to use any special rules related to chargin - First Charge, Furious Charge, Impacts hits etc. The unit still counts as having charged for external effects, if relevant for spells, other units etc.
 ---
-The initiative bonus applies since it is not a special rule. You lose any special rule on weapons and of the unit that have a relation to charging - a cavalry spear's fighting in second rank is useable, it's S and AP bonus are not. Magic weapons still have to be used (if equipped, a lance cannot be chosen), but their charge bonus is lost. The unit is not allowed to use any special rules related to chargin - First Charge, Furious Charge, Impacts hits etc. The unit still counts as having charged for external effects, if relevant for spells, other units etc.

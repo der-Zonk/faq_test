@@ -4,5 +4,6 @@ category: "Special Rules"
 question: "If two units with Terror declare a charge on my regular unit, shall I make two Terror tests?"
 referenced_rules: |
   Terror CRB 179
+answer: |
+  Yes, nothing says it's limited to only one Terror test.
 ---
-Yes, nothing says it's limited to only one Terror test.
