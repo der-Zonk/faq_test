@@ -9,27 +9,25 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Characters Joining Skirmishers CRB 185\nCharacters & Units CRB 207\nUnbreakable CRB 179\nLoner CRB 172",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Yes, if they are not prevented from joining them by special rules (Unbreakable, Loner, Fly, Ethereal) or different troop type and skirmish formation."
+    "content": ""
   },
   {
     "filename": "005-are-modifiers-to-charge-rolls-part-of-the-charge-roll-for-th.md",
     "id": "005",
-    "question": "Are modifiers to charge rolls part of the charge roll for the purpose of re-rolling?",
+    "question": "\"Are modifiers to charge rolls part of the charge roll for the purpose of re-rolling?",
     "category": "Special Rules",
     "turn_order": "2-2 Movement Phase Charge Moves",
     "date": "2026-02-10",
     "author": "Andreas Schmidt",
     "referenced_rules": "Swifstride CRB 178\nGW FAQ\nWaaagh Banner, Crusader's Zeal, First to the Fray, Daemon of Slaanesh, 'Ere We Go!, Virtue of the Impetuous Knight, Beast Banner",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "The modifiers are not part of the charge roll and abilities that let you reroll the charge roll cannot be applied for modifiers.\n\nHowever, as a failed charge references the charge roll, it uses the result of the charge roll with modifiers, not precising \"without modifiers\" for the determination of the failed charge move."
+    "content": ""
   },
   {
     "filename": "007-does-a-frenzied-unit-need-to-declare-a-charge-if-there-is-a-.md",
@@ -41,11 +39,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Frenzy, Impetuous GW FAQ 1.5.1 9",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "No, the frenzied unit only has to declare a charge if the blocking unit is declaring a charge but the blocking unit is not obliged to do so"
+    "content": ""
   },
   {
     "filename": "009-how-exactly-does-charging-of-skirmishers-work-with-formed-un.md",
@@ -57,11 +54,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Formed Units Charging Skirmishers CRB 186\nDirectly Towards CRB 92",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "When a formed unit of any type (be it Close Order, Open Order and so on) charges a unit of Skirmishers, it must endeavour to move as directly as possible into contact with the closestvisible model in the target unit. As usual, the charging unit may wheel once, at any point, during its move). This means you wheel the minimal distance needed to have contact with the closest visible model of the skirmishing unit and then charge forward in as straight a line as possible until you make contact. Upon contact, the skirmishing unit forms up as described in the skirmisher rules. To avoid abusive situations this should only apply if there is sufficient movement left. First priority is to complete the charge by get in contact with an enemy model. The skirmisher should align to the unit once contact is made rather than the unit having to manoeuvre to the facing of the skirmisher"
+    "content": ""
   },
   {
     "filename": "011-do-excess-wounds-from-multiple-wounds-x-count-for-overkill-v.md",
@@ -73,11 +69,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Hits that Inflict Multiple Wounds CRB 143\nMultiple Wounds (X) CRB 175\nOverkill and Champions GW FAQ 1.5.1 11\nOverkill CRB 211",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Yes. All Challenges, both vs. Characters and Champions allow Overkill, so excess wounds from multiple wounds should be counted against Champions as well. Champions are treated as Characters for this Purpose."
+    "content": ""
   },
   {
     "filename": "012-what-happens-when-only-characters-excluding-champions-are-le.md",
@@ -89,11 +84,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Characters & Units CRB 207",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "The unit immediately ceases to exist. Treat the characters as units on their own and use the lone character rules if applicable. In combat, any attacks on lower initiative steps may be allocated to those characters according to the rules for multiple units in combat. Out of combat, the surviving characters and nearby units must make Panic for \"nearby friend destroyed\" if the US of the destroyed unit was high enough (including the surviving characters). Surviving characters who fail their Panic will Fall Back in Good Order. Any special rules of the unit cease to exist (characters still have their own special rules). If a spell was only on the unit (not being cast by self range by one of the characters), the characters lose the effect of that spell."
+    "content": ""
   },
   {
     "filename": "016-does-a-slayer-of-legend-apply-it-s-slayer-of-rules-to-hits-c.md",
@@ -105,11 +99,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Dwarves Slayers of Legends FoF 17",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Yes"
+    "content": ""
   },
   {
     "filename": "018-can-a-model-that-is-only-in-base-contact-with-a-champion-or-.md",
@@ -121,11 +114,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Choose Combat & Determine Who Can Fight CRB 145 - 146Multiple Units in Combat CRB 147Characters in Combat 209",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Yes, the rules which force units to allocate attacks are only relevant for multiple units, but characters and the unit forme one single unit, you can allocate attacks to the unit."
+    "content": ""
   },
   {
     "filename": "019-can-a-model-that-would-have-been-able-to-make-a-supporting-a.md",
@@ -137,11 +129,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Stepping Forward CRB 102Supporting Attacks CRB 145Excess Casualties CRB 150",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Yes, the GW FAQ states that a model can make supporting attacks when the model in front is killed. This should mean the supporting attacks can be performend even if it stepped up."
+    "content": ""
   },
   {
     "filename": "020-can-a-character-that-falls-back-in-good-order-use-evade.md",
@@ -153,11 +144,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Pursuit CRB 156Evade CRB 206",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "No, the Pursuit Move is still part of the combat. Until the end of Step 4 both units count as being engaged in combat for this purpose."
+    "content": ""
   },
   {
     "filename": "022-can-you-use-the-hatred-from-rolling-a-2-on-the-darkforged-we.md",
@@ -169,11 +159,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Chaos Dwarves",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Yes, the hatred effect would apply to any attacks the bearer made- as it effects the model not modifies the weapon."
+    "content": ""
   },
   {
     "filename": "023-does-a-champion-in-a-unit-with-a-single-rank-open-a-new-rank.md",
@@ -185,11 +174,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Refusing a Challenge 210Nowhere to Run CRB 211",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "No, since you are only allowed to Redress the Ranks during a reform, Nowhere to Run applies and the challenge may not be refused."
+    "content": ""
   },
   {
     "filename": "028-if-there-are-multiple-selections-for-the-restriction-0-1-uni.md",
@@ -201,11 +189,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Army Composition",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Multiple units can have one or more of these selections, but no selection can be taken more than once in this case."
+    "content": ""
   },
   {
     "filename": "029-are-victory-points-cumulative-if-a-unit-flees-and-is-below-2.md",
@@ -217,11 +204,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Dead or Fled MPG 19",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "You take the maximum of points, in this case 50% for a fleeing unit"
+    "content": ""
   },
   {
     "filename": "032-phantasmagoria-spell-does-it-count-for-out-of-movement-phase.md",
@@ -233,11 +219,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Phantasmagoria CRB 325",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "It will trigger for any movement (in or out of phase) that ends within range - but it will not trigger if you choose not to move."
+    "content": ""
   },
   {
     "filename": "034-is-a-handmaiden-of-the-lady-able-to-cast-assailment-spells-f.md",
@@ -249,11 +234,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Shield of the Lady FoF 87",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Yes, she can cast spells as being in the fighting rank"
+    "content": ""
   },
   {
     "filename": "036-how-do-items-interact-that-let-you-throw-an-additional-dice-.md",
@@ -265,11 +249,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Power Scroll CRB 343",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "You would roll 4 dice"
+    "content": ""
   },
   {
     "filename": "040-can-a-unit-using-the-fly-x-special-rule-pass-freely-without-.md",
@@ -281,11 +264,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Magical Vortexes GW FAQ 1.5.1 8",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "No. Fly(X) allows the unit to move over physical terrain features without penalty, but Magical Vortexes and areas affected by a spell are not terrain features. \"Magical Vortexes are considered tall enough to affect even models flying high above the battlefield\", so units that Fly through them or their area of effect are affected as any other unit (e.g. -1 to movement, low dice if charging, dangerous terrain tests, blocked by impassable, damage from vortexes)."
+    "content": ""
   },
   {
     "filename": "041-can-the-bound-spell-storm-call-be-used-after-a-successful-ch.md",
@@ -297,11 +279,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Beastmen BrayherdsDragon Ogre ShaggothStorm Call RH 104Who can Shoot CRB 137",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "You can use it after a successful charge. RAI, the allowance to cast it into combat should also mean you can use it after a successful charge."
+    "content": ""
   },
   {
     "filename": "042-do-universal-special-rules-apply-also-to-magic-missiles-and-.md",
@@ -313,11 +294,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Armour Bane Magic Missiles GW FAQ 1.5.1 11",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "No, Magic Missiles and Vortexes cannot benefit from the casters special rules unless specifically stated otherwise"
+    "content": ""
   },
   {
     "filename": "045-if-a-unit-is-returning-after-pursuing-off-the-battlefield-do.md",
@@ -329,11 +309,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Pursuit off the Battlefield CRB 157Ambushers CRB 166",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "No, this is restriction is when the position is chosen. The position for returning is as close as possible to the point at which it left the battlefield in a legal position (e.g. 1\" away from enemy units and not on top of own units"
+    "content": ""
   },
   {
     "filename": "048-does-warpstone-token-trigger-only-on-a-d6-roll-of-a-natural-.md",
@@ -345,11 +324,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Skaven",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "A Natural roll of 1 on a D3 is a 1 or 2 on a D6"
+    "content": ""
   },
   {
     "filename": "050-how-is-the-distance-of-a-wheel-measured.md",
@@ -361,11 +339,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Basic Movement CRB 123 - 124",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "It is measured by taking a straight line from the outside front corner of the starting position to the outside front corner of the end position of the outermost model. For wheels that move over an angle greather than 90 degrees, measure the wheel in increments of (up to) 90 degrees."
+    "content": ""
   },
   {
     "filename": "051-how-is-he-rear-corner-defined-that-is-allowed-to-move-throug.md",
@@ -377,11 +354,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Wheel through another unit GW FAQ 1.5.1 9",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "If there is no alternative a unit can move through other units as long as the front edge is not touching the other unit."
+    "content": ""
   },
   {
     "filename": "052-does-the-move-of-the-counter-charge-count-as-a-charge-move-f.md",
@@ -393,11 +369,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Charge Move CRB 121Counter Charge CRB 167Furious Charge CRB 171Impact Hits CRB 172",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Yes, since GW states in the FAQ that a counter-charge is, in fact, a charge"
+    "content": ""
   },
   {
     "filename": "053-can-a-model-with-the-special-rule-random-movement-use-fly-x-.md",
@@ -409,11 +384,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Random Movement CRB 176Fly (X) CRB 170",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "No, Random Movement is not based on the movement characteristic, hence the unit cannot use the special rule Fly(X). Random Movement Units move in the compulsory movement phase and therefore neither march, charge or manoeuvre."
+    "content": ""
   },
   {
     "filename": "054-when-you-make-a-redress-the-ranks-manoeuvre-do-you-need-to-r.md",
@@ -425,11 +399,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Manoeuvres Redress the Ranks CRB 125Drilled CRB 167",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "You need to add/remove models as evenly as possible to keep command group in the middle"
+    "content": ""
   },
   {
     "filename": "055-how-do-you-perform-a-turn-with-non-square-bases-e-g-cavalry-.md",
@@ -441,11 +414,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Manoeuvres Turn CRB 124",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Turn the center model to keep the unit center the same and then align all other models accordingly so that the number of previous ranks are the current files and vice versa (given they have enough movement to conduct this maneuver)"
+    "content": ""
   },
   {
     "filename": "057-if-a-unit-with-evasive-moves-out-of-range-or-out-of-los-with.md",
@@ -457,11 +429,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Evasive CRB 168",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "The attacks are still declared and are unable to be made"
+    "content": ""
   },
   {
     "filename": "058-if-a-cannon-can-see-a-large-target-over-other-models-can-it-.md",
@@ -473,11 +444,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Cannon Fire CRB 226",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "No, a cannon must have LoS to its target point. It could target the edge of the large target's base, but intervening models block LoS to points on the ground. If the cannon is on a hill or is a large target itself, then it can see over intervening models accordingly."
+    "content": ""
   },
   {
     "filename": "065-does-hawk-eyed-archer-effect-melee-and-ranged-attacks.md",
@@ -489,11 +459,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Wood Elves Hawk Eyed Archer FoF 123",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Only Ranged"
+    "content": ""
   },
   {
     "filename": "066-does-hawk-eyed-archer-allow-you-to-target-war-machine-crew.md",
@@ -505,11 +474,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Wood Elves Hawk Eyed Archer FoF 123",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "No, as the war machine and crew are actually 1 model, with split stats based on the type of attack. You will always make these attacks vs the war machine profile when doing ranged attacks"
+    "content": ""
   },
   {
     "filename": "067-what-is-a-shooting-attack-are-spells-also-considered-shootin.md",
@@ -521,11 +489,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "The Shooting Phase CRB 136How Many Shots? CRB 137Look Out Sir CRB 199Look Out, Sir CRB 209Wailing Dirge",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "All attacks that are performed in the shooting phase are considered shooting attacks, including spells"
+    "content": ""
   },
   {
     "filename": "068-can-a-character-with-hawk-eyed-archer-or-a-similar-ability-t.md",
@@ -537,11 +504,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Wood Elves Hawk Eyed Archer FoF 123Targeting Weapon Teams Skaven 8Targeting Lone characters CRB 206",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Yes, the rules are written for the core factions where no other models than characters can benefit from Lone Character. Therefore it would also work against models that are no characters but have the same mechanic"
+    "content": ""
   },
   {
     "filename": "071-does-the-entire-unit-count-as-moved-when-determining-the-sho.md",
@@ -553,11 +519,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Movement & Manoeuvre CRB 185Moving and Shooting CRB 139",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "It is determined by individual models. Note that marching applies to the entire unit, except for a character who joined a unit that marched but did not march himself."
+    "content": ""
   },
   {
     "filename": "072-how-do-you-remove-models-as-equally-as-possible-for-example-.md",
@@ -569,11 +534,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Motley Crew CRB 174Characters & Shooting CRB 209Unstable",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "You can determine one model after the other by dividing the number of remaining models in each group by the number of models in that group removed already plus 1. The higher number will be the group of models where one model needs to be removed. In case of tie the attacker decides. So if you have 8 Models Group A and 2 Models Group B you would remove: A A (A or B) (B or A) A A (A or B) (B or A) A A"
+    "content": ""
   },
   {
     "filename": "073-does-a-unit-need-to-be-fully-withn-12-to-be-save-from-a-ston.md",
@@ -585,11 +549,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Measurement CRB 92Minimum Range CRB 212Bombardment CRB 224",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "As soon as the closest part is within 12\" the unit can't be shot"
+    "content": ""
   },
   {
     "filename": "075-can-the-doomwheel-use-its-zzzap-rule-while-engaged-and-fleei.md",
@@ -601,11 +564,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Skaven 17",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Yes, there are no restrictions. The lightning is independent from its ability to perform shooting attacks."
+    "content": ""
   },
   {
     "filename": "076-can-the-rules-shield-of-the-lady-and-verminous-valour-which-.md",
@@ -617,11 +579,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Skaven Verminous ValourBretonnia Shield of the Lady",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "No, these rules directly refer to 'the fighting rank' and 'the combat' which only apply in combat, and involve 'moving through the ranks' which requires the unit to be engaged and the character to return to its original position as soon as it disengages. Note that you cannot use it as a reaction on already stated or announced actions. This means while resolving a combat you have to use it at the end of an initiative step, before targets of models' attacks are announced. You can use it outside of resolving the combat at any time, given the unit is engaged in combat."
+    "content": ""
   },
   {
     "filename": "077-is-the-bonus-from-my-will-be-done-applied-before-or-after-st.md",
@@ -633,11 +594,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Tomb Kings My Will Be done RH 126",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "You set the initiative to 1, and then apply modifiers, so you would add MWBD after."
+    "content": ""
   },
   {
     "filename": "078-can-i-stack-casket-of-souls-covenant-of-power.md",
@@ -649,11 +609,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Tomb Kings Casket of Souls RH 148",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "No. The rule grants the bonus if you are with a casket. If there is 1 or multiple Caskets doesn't matter"
+    "content": ""
   },
   {
     "filename": "081-is-there-a-difference-between-rules-that-say-you-suffer-a-wo.md",
@@ -665,11 +624,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Regeneration GW FAQ 1.5.1 3",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Suffering a wound allows armor and ward saves if not specifically ruled otherwise. Losing a wound means the model loses the wound with only Regeneration saves allowed (if not ruled out by any special rules)."
+    "content": ""
   },
   {
     "filename": "082-when-does-a-unit-test-when-suffering-heavy-casualties.md",
@@ -681,11 +639,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Psychology of War Heavy Casualties CRB 161",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Immediately after the attacks that caused the losses are performed the unit need to test. Could lead to situations where a unit also FBIGO despite losing additional losses afterwards that would make them to be < 50% and flee"
+    "content": ""
   },
   {
     "filename": "083-when-a-unit-gives-ground-do-you-move-them-in-a-straight-line.md",
@@ -697,11 +654,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Directly towards, directly away CRB 92Give Ground CRB 134",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "The rule says directly away but no pivots or turns. This means you move center to center but keep the facing."
+    "content": ""
   },
   {
     "filename": "086-how-do-multiple-instances-of-multiple-wounds-special-rule-st.md",
@@ -713,11 +669,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Multiple Wounds CRB 176Cumulative Effects CRB 165",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "It would be D3 +1 as MW (2) is effectively Wounds (+1)"
+    "content": ""
   },
   {
     "filename": "088-against-which-enemies-exactly-do-hatred-x-and-fear-x-work-ag.md",
@@ -729,11 +684,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Hatred CRB 171",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Only against models which are X. For instance, Hatred (Orcs & Goblins) does not reference the faction name \"Orc & Goblin Tribes\", it only references models which contain an orc and/or a goblin (including Chaos Dwarfs' Black Orcs). Models with Fear (Elves) fear models which contain an elf. Models with Hatred (Wizards) hate all models containing a wizard."
+    "content": ""
   },
   {
     "filename": "089-do-characters-and-crew-on-mounts-benefit-from-the-special-ru.md",
@@ -745,11 +699,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Split Profiles CRB 97Mounted Characters CRB 204",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Yes, Unless noted otherwise, any special rules that apply to one element (chariot, character, crew or beasts) apply to the others as well. Effects are shared- both positive and negative."
+    "content": ""
   },
   {
     "filename": "092-does-a-character-on-lammasu-get-armor-bane-2.md",
@@ -761,11 +714,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Chaos Dwarves Lammasu",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Yes"
+    "content": ""
   },
   {
     "filename": "098-how-many-wounds-are-counted-for-combat-result-overkill-when-.md",
@@ -777,11 +729,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Multiple Wound Models CRB 102Killing Blow CRB 172Killing Blow GW FAQ 1.5.1 7",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Each attack that inflicts Killing Blow or similar ability inflicts a number of wounds equal to the remaining wounds of the model. Excess wounds with Killing Blow count in challenges as one single wound."
+    "content": ""
   },
   {
     "filename": "099-does-a-unit-that-fails-a-fear-test-before-charging-makes-a-f.md",
@@ -793,11 +744,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Fear CRB 168",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "No, the Unit counts as having made a failed charge but doesn't actually move."
+    "content": ""
   },
   {
     "filename": "103-the-rule-say-that-magic-resistance-doesn-t-stack-does-this-c.md",
@@ -809,11 +759,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Magic Resistance CRB 173Obsidian Lodestone CRB 341",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Magic Resistance from various sources or multiple items doesn't stack for single models unless it is explicitly stated (like Obsidian Lodestone stacks with itself)"
+    "content": ""
   },
   {
     "filename": "104-do-the-modifiers-for-several-mortis-engine-stack-how-often-d.md",
@@ -825,11 +774,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Vampire Counts Mortis Engine 17Accursed ReliquaryBlasphemous Tome",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Given that the rules say you get the bonus if you are in range of \"this model\" the modifiers do stack for several Mortis Engines. In case ogf a Miscast an absolute number of rolls is given. So you roll twice no matter how many Mortis Engines are in range."
+    "content": ""
   },
   {
     "filename": "105-how-does-the-resurrecting-the-fallen-ability-work-with-units.md",
@@ -841,11 +789,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Vampire Counts Invocation of Nehek 5Tomb Kings Arise! RH 128Resurrecting the Fallen RH 154Resurrecting the Fallen Vampire Counts 28",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "You can use the rule and resurrect models, but only place them in coherency of models that were present at the start of the phase."
+    "content": ""
   },
   {
     "filename": "106-does-the-controlling-player-choose-the-direction-before-or-a.md",
@@ -857,11 +804,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "FanaticsMagic Vortex",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Choose before rolling. RAW is ambiguous, and the functional difference is minimal. This is less a \"correct\" answer and more of having something in place to keep the game flowing."
+    "content": ""
   },
   {
     "filename": "107-some-abilities-grant-bonuses-to-a-characteristic-up-to-a-max.md",
@@ -873,11 +819,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Model Profiles CRB 96",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Any limitation is applied at the end of characteristic calculation. If there are no limitations on the characteristic from any source, you can go above 10."
+    "content": ""
   },
   {
     "filename": "110-when-is-the-unit-strength-for-nearby-friend-flees-combat-uni.md",
@@ -889,11 +834,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Nearby Friend Flees Combat CRB 161CRB 151-156GW FAQ 1.5.1 11",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Like 'Nearby Friend destroyed', the Unit Strength for Nearby Friend Flees combat is tracked at the beginning of the combat phase, as the FAQ states you 'should keep track of Unit Strength during each phase.'"
+    "content": ""
   },
   {
     "filename": "111-can-a-steam-tank-fire-both-its-missile-weapons-steam-cannon-.md",
@@ -905,11 +849,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Empire Steam Tank FoF 68Who can shoot CRB 137Missile Weapons CRB 216FAQ 2024-04-09",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "No, the crew can fire either the Steam cannon or the Steam gun."
+    "content": ""
   },
   {
     "filename": "113-some-weapons-shoot-like-a-war-machine-such-as-the-cygor-s-hu.md",
@@ -921,11 +864,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Empire Steam Tank Steam Cannon FF 69Beastmen Brayherds Cybor Hurl Attack RH 107",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "No. Not explicitly RAW. However, a Misfire result does not provide a numeric value that you need to carry out the attack. All results on a Misfire table result in the attack failing, and this seems like a reasonable extrapolation."
+    "content": ""
   },
   {
     "filename": "115-what-is-the-exact-sequence-of-the-terror-leadership-test-and.md",
@@ -937,11 +879,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Terror CRB 179Charge Reactions Flee CRB 120",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "The leadership test is done as soon as the unit causing terror has declared a charge, even before finishing to declare all other charges. The flee move is performed with the other charge reactions, after all charges have been declared."
+    "content": ""
   },
   {
     "filename": "119-can-units-adopt-special-rules-or-formations-that-would-preve.md",
@@ -953,11 +894,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Characters & Units CRB 207",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "The character must first leave the unit, before the unit may adapt skirmish formation. If the character already joined the unit prior to the special rule coming into effect, the whole unit including the character gets to use the special rule."
+    "content": ""
   },
   {
     "filename": "121-is-a-handmaiden-of-the-lady-able-to-cast-magic-missile-spell.md",
@@ -969,11 +909,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Shield of the Lady FOF 87",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Yes, \"units do not block the character's line of sight\", so its perfectly possible to cast magic missiles."
+    "content": ""
   },
   {
     "filename": "122-is-nudging-units-because-of-rules-like-the-1-move-and-the-sh.md",
@@ -983,13 +922,12 @@
     "turn_order": "0 General Rules",
     "date": "2026-02-10",
     "author": "Andreas Schmidt",
-    "referenced_rules": "",
+    "referenced_rules": null,
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "No"
+    "content": ""
   },
   {
     "filename": "124-when-do-you-place-your-additional-wood-from-woodland-ambush-.md",
@@ -1001,11 +939,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Wood Elves Woodland Ambush FOF 145",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "After deciding the sides, but before deploying any unit."
+    "content": ""
   },
   {
     "filename": "125-do-you-need-to-maximize-the-number-of-models-in-combat-or-ta.md",
@@ -1017,11 +954,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "The Charge Move CRB 126Multiple Charge Targets CRB 130",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "If you can avoid charging two units you have to do so, event if that means you cannot maximise or take a longer route. Please note that completing the charge has priority. So you would charge two units if that is the only way to charge successfully."
+    "content": ""
   },
   {
     "filename": "127-what-are-exactly-the-conditions-to-meet-to-buy-a-magic-armou.md",
@@ -1033,11 +969,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Magic Armour CRB 340",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "To buy a magical shield, your character must be (or has the option to be) equipped with a shield. To buy a magical suit of armour, your character must be (or has the option to be) equipped with any suit of armour (light/heavy/plate), natural armour (such as calloused hide) excluded. To buy any other magical armour that is not an suit of armour or a shield, your character must be (or has the option to be) equipped with either a shield or any armour, natural armour excluded.I.E. a skink priest cannot be given any kind of magical armour even if it has calloused hide"
+    "content": ""
   },
   {
     "filename": "128-arcane-familiar-when-has-the-owner-to-decide-how-many-spells.md",
@@ -1049,11 +984,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Arcane Familiar CRB 343",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "When random generating your spell with arcane familiar declare how many spell you want to generate on each lore. Reroll duplicate spell for each lore. If you want you can replace a single spell from only one lore with the signature spell of the same lore or with a spell from the army lore the wizard may have"
+    "content": ""
   },
   {
     "filename": "130-how-do-you-reform-a-unit-from-skirmish-formation-to-close-or.md",
@@ -1065,11 +999,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Skirmishers CRB 185 – 187Maneuvers CRB 124Reform CRB 125GW FAQ",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "If you reform from skirmishing formation, maintain the centre of the unit as good as possible and rank all models up around that point. You may freely chose the facing of the unit. Place command group models accordingly. Every model may move up to twice its movement characteristic as stated under maneuvers. Remove any skirmishers as casualties that are not able to rank up."
+    "content": ""
   },
   {
     "filename": "132-what-happens-if-a-model-has-a-initiative-value-of-0-or-below.md",
@@ -1081,11 +1014,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Model Profiles CRB 96 - 97",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Characteristics cannot go below 0. Models with Initiative 0 attack in Initiative order, after all attacks with initiative 1, including stomp attacks."
+    "content": ""
   },
   {
     "filename": "133-can-a-model-with-the-grail-vow-benefit-from-it-s-ward-save-w.md",
@@ -1097,11 +1029,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Bretonnia Blessings of the Lady FOF 107\nBretonnia Grail Vow FOF 108",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Yes, the army cannot pray to receive the Blessing. Models with the Grail Vow already have the Blessing before the Battle."
+    "content": ""
   },
   {
     "filename": "134-what-is-considered-the-front-and-rear-corner-of-a-unit-in-la.md",
@@ -1113,11 +1044,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Bretonnia The Lance Formation FOF 110 - 111",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "For this purpose, the front edge of the second rank and the model in the first rank cannot pass through units. The rest of the unit can wheel through other units as the models would take a direct route as described in the GW FAQ."
+    "content": ""
   },
   {
     "filename": "136-who-can-allocate-attacks-to-a-single-model-in-a-lance-format.md",
@@ -1129,11 +1059,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Bretonnia The Lance Formation FOF 110 - 111",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "All models in both fighting ranks can allocate attacks to a single model in the enemies fighting rank. This also means that every model in each fighting rank can do all it's attacks, even it is not physically in base contact with either unit."
+    "content": ""
   },
   {
     "filename": "137-a-unit-with-random-movement-arrives-as-reinforcements-or-wit.md",
@@ -1145,11 +1074,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Reinforcements CRB 134\nAccidental Contact CRB 131\nPursuit off the Battlefield CRB 157\nRandom Movement CRB 176",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Yes, it did not move yet using its random movement rule. Please note that if the model is able to make contact with an enemy unit it may do so and counts as having charged."
+    "content": ""
   },
   {
     "filename": "138-when-do-you-need-to-decide-or-declare-if-a-unit-is-scouting.md",
@@ -1161,11 +1089,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Scouts CRB 188\nDeployment CRB 285",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "You don't need to declare it in advance. Units with the Scout ability can be deployed at any point during the regular deployment phase, up until characters are deployed."
+    "content": ""
   },
   {
     "filename": "139-the-veteran-rule-grants-a-reroll-for-leadership-tests-can-yo.md",
@@ -1177,11 +1104,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Leadership Tests CRB 97Veterans CRB 180",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Yes"
+    "content": ""
   },
   {
     "filename": "140-is-a-character-that-joins-another-unit-still-considered-a-un.md",
@@ -1193,11 +1119,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Characters CRB 205 - 210",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "They form together a single unit. Whenever the word 'unit' is mentioned in a special rule the unit already has or when the rule comes from a magical banner in that unit, apply rules for both the character and the unit he joined. Special Rules a character has only apply to the unit if \"and any unit they have joined\" is mentioned or similar.Please note that some special rules could cease to apply if a character without a special rule joins a unit or vice versa (e.g. Counter Charge).Special rules that affect models or weapons do NOT translate from one model to the whole unit or vice versa (a unit with poisoned attacks will not give the character poisoned attacks when joining).Special rules that only need the majority of models to have the special rule will work (e.g. Reserve Move).If a character that casted a spell or used an ability \"that affects the caster and any unit he has joined\" leaves a unit after casting that spell/using the ability, only the caster has the effect, but if he joins another unit, that unit will benefit from that effect too.if a character in a unit becomes the target of the effects ethereal, fly or any other rule that would prevent them from joining, the character can still be part of the unit, but once they leave it, they are not allowed to join again as long as the character has these special rules.if a unit with a character becomes the target of a spell that grants them a Special Rule or Ability, the character can benefit from it while it has joined the unit even if the Special Rule or Ability would prevent them from joining, but will lose it the moment it leaves the unit. If all the models of the unit are removed as casualties, the unit ceases to exist immediately, and the character loses the Special Rule or Ability.Anyway, if a character moved or marched before joining a unit, the unit will not count as moved/marched and vice versa."
+    "content": ""
   },
   {
     "filename": "144-if-the-single-use-effect-of-a-magic-weapon-such-as-wollopa-s.md",
@@ -1209,11 +1134,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Single use magic items CRB 337\nWollopas One Hit wunda RH 43",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "No, Wollopa’s One Hit Wunda continues to count as a magical hand weapon even after its single-use effect is expended. Since it remains a magic item, you are not permitted to switch to another mundane weapon in that combat. Remember, general rules for switching weapons between rounds of combat still apply."
+    "content": ""
   },
   {
     "filename": "145-what-happens-when-you-charge-a-unit-in-the-rear-with-an-inco.md",
@@ -1225,11 +1149,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Choose Combat & Determine Who can fight CRB 145ff",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "No, only those models can attack in their initiative step that were projected into the fighting rank before and weren't killed during prior attacks. To make it easier, you can determine the fighting rank for rear charges at the beginning of the combat, after characters have moved and challenges have been called."
+    "content": ""
   },
   {
     "filename": "147-can-a-mounted-character-on-light-chariot-that-has-to-adapt-o.md",
@@ -1241,11 +1164,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Characters & Formation CRB 205",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Yes, the rule for mounted character formation ceases to apply as soon as he joins the unit and ceases to be an independent unit - the character will adopt the units formation."
+    "content": ""
   },
   {
     "filename": "148-is-it-possible-for-a-unit-with-the-chariot-troop-type-to-cha.md",
@@ -1257,11 +1179,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Skirmishers CRB 185 – 187 GW FAQ",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "No. Skirmishers in combat take 'Close formation', (see page 185) and are no longer in the lose arrangement of models that a unit in Skirmish formation adopts when not in combat."
+    "content": ""
   },
   {
     "filename": "149-do-other-special-rules-also-applies-to-units-that-are-not-ye.md",
@@ -1271,13 +1192,12 @@
     "turn_order": "0 General Rules",
     "date": "2026-02-10",
     "author": "Andreas Schmidt",
-    "referenced_rules": "",
+    "referenced_rules": null,
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Units don't count as long as they are not on the battlefield, they don't get to use their special rules."
+    "content": ""
   },
   {
     "filename": "153-can-models-acting-on-the-same-initiative-step-rolled-one-aft.md",
@@ -1287,13 +1207,12 @@
     "turn_order": "4-1 Combat Phase Choose Combat & Determine Who Can Fight",
     "date": "2026-02-10",
     "author": "Andreas Schmidt",
-    "referenced_rules": "",
+    "referenced_rules": null,
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "No, all attacks at the same Initiative step are considered to happen simultaneously. Therefore, changes in the positions of characters, such as a handmaiden retiring after striking, do not affect the resolution of other attacks on that Initiative step. Models attacking on the same Initiative step can still target the character as if she were in her original position."
+    "content": ""
   },
   {
     "filename": "154-can-a-character-that-retired-from-the-fighting-rank-due-to-t.md",
@@ -1305,11 +1224,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Characters CRB 205 - 210",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Yes, if the fighting rank shrinks or follow-up moves create space, a character that previously retired can return to the fighting rank, provided they meet the positioning requirements outlined in the rules."
+    "content": ""
   },
   {
     "filename": "155-can-a-character-that-retired-from-a-challenge-return-to-the-.md",
@@ -1321,11 +1239,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Characters CRB 205 - 210",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Yes, but only if maintaining the unit's formation requires the character to step forward into the fighting rank due to casualties or shrinking ranks. This applies when the only available position to preserve the unit's structure is in the fighting rank."
+    "content": ""
   },
   {
     "filename": "156-what-happens-when-a-unit-falls-below-unit-strength-10-after-.md",
@@ -1337,11 +1254,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Shield of the Lady FoF 87",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "The Unit Strength 10 condition is checked at the moment the Handmaiden retires to the rear rank. If the condition is met at that time, the Lady’s effects remain active until the combat ends, even if the unit later falls below Unit Strength 10."
+    "content": ""
   },
   {
     "filename": "157-are-characters-without-special-rule-vanguard-pre-deployment-.md",
@@ -1353,11 +1269,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "GW FAQ",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Yes, if the banner explicitly grants the Vanguard special rule to the entire unit then the character can Vanguard. However, the GW FAQ clarifies that a character does not gain Vanguard if it joins a unit that has the rule only in its profile. This distinction arises because Vanguard in a unit’s profile does not automatically extend to joined characters unless specifically stated by an upgrade, like a banner, that applies to the entire unit."
+    "content": ""
   },
   {
     "filename": "159-can-a-cannonball-hit-a-character-which-has-joined-a-unit-wit.md",
@@ -1369,11 +1284,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Cannon Fire CRB 226\nCharacters & Shooting CRB 209",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Yes, since a cannon ball hits a model and not the unit, the character is hit (targeted by an attack that allows a specific model within the unit to be targeted). If there are 5 or more rank and file models that character is allowed to make a Look Out, Sir! - roll. This also applies to unit champions or special models within units."
+    "content": ""
   },
   {
     "filename": "160-if-a-unit-decides-to-rearrange-its-ranks-during-a-reform-man.md",
@@ -1385,11 +1299,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Manoeuvres Reform CRB 125",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "No, but no model is allowed to move further than double its movement characteristic during a reform."
+    "content": ""
   },
   {
     "filename": "161-does-a-unit-have-to-do-peril-tests-if-it-overlaps-with-the-u.md",
@@ -1401,11 +1314,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Fleeing through Enemy Units CRB 133",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "No, the unit is not fleeing \"through\" the unit it overlaps after the pivot, and does not make peril tests for models moving through the unit it is fleeing away from from in this way. Note: The unit must still make peril tests if it flees through any other units it is engaged with"
+    "content": ""
   },
   {
     "filename": "162-there-are-a-some-items-which-have-restrictions-for-character.md",
@@ -1415,13 +1327,12 @@
     "turn_order": "0 General Rules",
     "date": "2026-02-10",
     "author": "Andreas Schmidt",
-    "referenced_rules": "",
+    "referenced_rules": null,
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "If the type of character is not specified further (for example \"beastmen chieftain only or necromancer only\"), champions are allowed to take and use these items with the same restrictions. If the items have any restrictions that apply generally to Characters, those restrictions also apply to non-Characters models that can take the items."
+    "content": ""
   },
   {
     "filename": "163-what-happens-when-a-unit-with-random-movement-makes-a-pursui.md",
@@ -1433,11 +1344,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Random Movement CRB 176\nGW FAQ",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Only use Random Movement during the Compulsory Movement phase or any movement based on the unit's Movement characteristic. For all other movement types (e.g., FBIGO, fleeing, pursuing etc.), follow the rules for the relevant move type as stated in the rulebook, including distance rolls."
+    "content": ""
   },
   {
     "filename": "164-what-are-the-size-and-shape-restrictions-for-the-additional-.md",
@@ -1449,11 +1359,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Woodland Ambush FOF 145",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "The additional wood must measure between 8\" and 12\" at its widest point. It should be shaped to resemble a natural wooded area. If there is any doubt about what is acceptable, check with your opponent or the Tournament Organizer. Note that some tournaments may provide pre-defined woods or have specific guidelines for their appearance."
+    "content": ""
   },
   {
     "filename": "168-can-a-champion-or-character-accept-challenges-regardless-fro.md",
@@ -1465,11 +1374,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Characters in Combat CRB 209",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "A: No. Challenges can only be accepted by models which are either placed in or immediately adjacent (as non-fittiging characters) to the fighting rank engaged with the unit the challenge was issued from (or the extended fighting rank behind that in case of Infantry using the press of battle rule). While all fighting ranks in a combat are part of the battle, the wording on page 210 suggests challenges are limited to the specific engaged rank directly facing the enemy."
+    "content": ""
   },
   {
     "filename": "170-can-a-character-that-attempts-to-use-an-ability-that-require.md",
@@ -1479,13 +1387,12 @@
     "turn_order": "1-2 Strategy Phase Command",
     "date": "2026-02-10",
     "author": "Andreas Schmidt",
-    "referenced_rules": "",
+    "referenced_rules": null,
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Yes"
+    "content": ""
   },
   {
     "filename": "171-when-a-unit-charges-a-unit-with-the-rune-of-hesitation-does-.md",
@@ -1497,11 +1404,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Dwarves Master Rune of Hesitation FOF 37\nWho Strikes first? CRB 146",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "The initiative bonus applies since it is not a special rule. You lose any special rule on weapons and of the unit that have a relation to charging - a cavalry spear's fighting in second rank is useable, it's S and AP bonus are not. Magic weapons still have to be used (if equipped, a lance cannot be chosen), but their charge bonus is lost. The unit is not allowed to use any special rules related to chargin - First Charge, Furious Charge, Impacts hits etc. The unit still counts as having charged for external effects, if relevant for spells, other units etc."
+    "content": ""
   },
   {
     "filename": "173-for-monster-handlers-is-the-d6-roll-to-check-whether-a-wound.md",
@@ -1513,11 +1419,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Monster Handlers CRB 173",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "The roll occurs for any unsaved wounds, since the last phrase of the paragraph is also not related only to combat. The \"in combat\" only applies to the first phrase."
+    "content": ""
   },
   {
     "filename": "174-if-two-units-with-terror-declare-a-charge-on-my-regular-unit.md",
@@ -1529,11 +1434,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Terror CRB 179",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Yes, nothing says it's limited to only one Terror test."
+    "content": ""
   },
   {
     "filename": "175-when-removing-casualties-from-the-back-rank-shall-we-commit-.md",
@@ -1545,11 +1449,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Removing Casualties from Units CRB 102",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Once you removed your first casualty and the back rank is incomplete, you must continue to remove models from the same direction."
+    "content": ""
   },
   {
     "filename": "177-which-set-of-rules-must-be-used-for-a-character-riding-a-beh.md",
@@ -1561,11 +1464,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Howdah CRB 171",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Split profile (chariot mount), because Howdah references Split profile (chariots)"
+    "content": ""
   },
   {
     "filename": "178-can-skaven-master-assassins-and-dark-elves-khainite-assassin.md",
@@ -1575,13 +1477,12 @@
     "turn_order": "0 Faction Rules",
     "date": "2026-02-10",
     "author": "Andreas Schmidt",
-    "referenced_rules": "",
+    "referenced_rules": null,
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Yes"
+    "content": ""
   },
   {
     "filename": "179-when-is-decided-the-unit-where-skaven-master-assassins-and-d.md",
@@ -1591,13 +1492,12 @@
     "turn_order": "0 Faction Rules",
     "date": "2026-02-10",
     "author": "Andreas Schmidt",
-    "referenced_rules": "",
+    "referenced_rules": null,
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "When deploying characters"
+    "content": ""
   },
   {
     "filename": "180-which-weapon-exactly-can-i-use-with-the-spectral-doppelgange.md",
@@ -1609,11 +1509,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Spectral Doppelganger CRB 331 GW FAQ",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Any melee weapon the model carries, magical or not"
+    "content": ""
   },
   {
     "filename": "181-what-happens-when-a-unit-charges-a-unit-and-has-no-other-cho.md",
@@ -1625,11 +1524,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "The 1\" Rule CRB 118",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Since charge moves are conducted in the movement phase, the 1\" rule comes to use and the units have to be nudged 1\" away"
+    "content": ""
   },
   {
     "filename": "182-is-a-champion-removed-as-a-casualty-when-he-is-in-a-challeng.md",
@@ -1641,11 +1539,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Champions CRB 199",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Yes, no Rule in champions ( 199) prevents the champion from being removed"
+    "content": ""
   },
   {
     "filename": "183-can-a-unit-start-declare-a-march-after-it-already-made-maneu.md",
@@ -1657,11 +1554,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Marching CRB 123",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "No it cannot, a unit either marches or does not march."
+    "content": ""
   },
   {
     "filename": "184-do-you-have-to-announce-the-use-of-your-general-s-leadership.md",
@@ -1673,11 +1569,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Inspiring Presence CRB 203",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Since the sequence for break tests clearly states rolling first and then comparing and checking later, you can roll first and then use Inspiring Presence or not, depending on the dice roll. For leadership tests, Inspiring Presence is optional too, since under Inspiring Presence \"can” is stated."
+    "content": ""
   },
   {
     "filename": "185-can-a-salamander-pack-or-a-similar-unit-that-is-both-war-bea.md",
@@ -1689,11 +1584,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Lizardmen\nBeastmen Primal Wardogs",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "No, the War Beast Troop Type gives the unit the undisciplined special rule"
+    "content": ""
   },
   {
     "filename": "186-can-units-with-the-special-rule-dragged-along-be-drawn-by-un.md",
@@ -1705,11 +1599,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Dragged Along CRB 167\nFly (X) CRB 169",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Yes, use the movement distance in the brackets of Fly(X) but move the model dragged along on the ground - not using fly movement."
+    "content": ""
   },
   {
     "filename": "187-does-the-multiple-wounds-x-special-rule-work-against-war-mac.md",
@@ -1721,11 +1614,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Split Profile (War Machine) CRB 197",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "The crew is a single profile that loses attacks as it loses wounds. Multiple wounds works against it."
+    "content": ""
   },
   {
     "filename": "188-motley-crew-when-do-you-determine-which-casualties-are-remov.md",
@@ -1737,11 +1629,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Motley Crew CRB 174",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Check at the beginning of each initiative step when attacks are made, then remove first those models which have a majority, then remove the rest, then step forward. Note that a champion that choses a wholly different weapon counts as a separate pool. In case of a tie, the controlling player decides which armour save to use and which models to remove (you have to remove the models of which you use the armour save)."
+    "content": ""
   },
   {
     "filename": "189-what-happens-when-a-unit-that-gives-ground-cannot-move-more-.md",
@@ -1753,11 +1644,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Give Ground CRB 134",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Since giving ground is not possible, the units remain locked in combat, but all units move as far as possible and remain locked at the new position (see GW FAQ)."
+    "content": ""
   },
   {
     "filename": "190-can-a-champion-that-is-not-on-the-table-because-he-is-in-amb.md",
@@ -1769,11 +1659,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Warriors of Chaos Warrior Duel",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Yes, nothing in the wording of the rule implies that the Champion's Unit of the Marauder or their opponent have to be actually on the battlefield to fight in the Warrior Duel."
+    "content": ""
   },
   {
     "filename": "191-how-many-attacks-do-models-make-when-fighting-an-enemy-unit-.md",
@@ -1785,11 +1674,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "How many Attacks CRB 146",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "If attacking across a low linear obstacle, only 1 attack each (no base contact)"
+    "content": ""
   },
   {
     "filename": "193-does-a-unit-gain-the-benefit-of-a-defended-low-linear-obstac.md",
@@ -1801,11 +1689,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Low Linear Obstacle CRB 159",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "The last sentence only mentions Fly (X) as an exception, so a charging unit always suffers the disordered charge but only loses impact hits and stomp attacks and full attacks if it has no base contact/for models without base contact"
+    "content": ""
   },
   {
     "filename": "194-do-units-in-combat-or-outside-of-line-of-sight-of-the-shooti.md",
@@ -1817,11 +1704,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Lone Characters CRB 206",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "No, target implies \"legal target\". Therefore, the unit is not able to protect the lone character and the character can be shot at if no other unit is eligible to protect that character."
+    "content": ""
   },
   {
     "filename": "196-how-does-the-poison-special-rule-interact-with-too-tough-to-.md",
@@ -1833,11 +1719,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "GW FAQ!?",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Any 6 to hit automatically wounds the target."
+    "content": ""
   },
   {
     "filename": "198-if-a-spell-or-ability-states-all-units-within-y-may-or-all-u.md",
@@ -1849,11 +1734,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Hellish Vigour Khsar's Incantation of the Desert Wind",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "All units that are within Y may benefit from that effect, given they are within Y at the time they want to use the effect (aka the effect moves with the caster for the whole duration of X)."
+    "content": ""
   },
   {
     "filename": "199-can-a-skink-character-join-a-salamander-pack-a-skirmisher-un.md",
@@ -1865,11 +1749,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Characters joining Skirmishers CRB 185",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "No, since skink characters do not have both regular infantry and the war beast troop type."
+    "content": ""
   },
   {
     "filename": "201-can-you-decide-to-alter-the-charge-path-of-a-charging-unit-t.md",
@@ -1881,11 +1764,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "The Charge Move CRB 126",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Yes. You define the path taken by the unit after rolling the dice (it's already the case for wheeling to maximise contact) because you must move by the shortest route possible to reach the charge target. Make charges happen if possible."
+    "content": ""
   },
   {
     "filename": "202-does-the-free-wheel-to-align-count-in-the-charge-move-distan.md",
@@ -1897,11 +1779,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Aligning to the Enemy CRB 126\nWho Strikes first? CRB 146",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "The free Wheel takes place after making contact. It is separated from the charge move, both for placement and initiative."
+    "content": ""
   },
   {
     "filename": "203-how-many-demonic-gifts-can-a-demon-of-chaos-character-buy-ar.md",
@@ -1913,11 +1794,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Daemons of Chaos Demonic Gifts",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Since there are no categories for the demonic gifts mentioned as in the rulebook for magic items, a character can buy as many different gifts as his point limit allows. Demonic gifts without an asterik can only be taken once per army and only a demonic locus can buy a single icon."
+    "content": ""
   },
   {
     "filename": "204-can-a-unit-with-random-movement-move-into-contact-with-a-uni.md",
@@ -1929,11 +1809,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Random Movement CRB 176",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Yes, you don't need LoS or the enemy unit to be in your front arc since you do not declare the charge. As long as you fulfill the charge criteria (shortest route, only one wheel etc.), that is a perfectly acceptable \"move into contact\"."
+    "content": ""
   },
   {
     "filename": "205-can-you-use-counter-charge-against-a-redirected-charge.md",
@@ -1945,11 +1824,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Redirecting a Charge CRB 129",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "No, only hold or flee are possible against a redirected charge."
+    "content": ""
   },
   {
     "filename": "206-if-i-am-redirecting-a-charge-and-the-new-target-was-already-.md",
@@ -1961,11 +1839,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Redirecting a Charge CRB 129",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Yes, the redirected charge calls to a new reaction but the only choices are Hold and Flee. The soldiers see the new enemy coming and it can change their initial decision."
+    "content": ""
   },
   {
     "filename": "207-give-ground-a-unit-giving-ground-stops-moving-immediately-sh.md",
@@ -1977,11 +1854,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Give Ground CRB 134",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Only physical terrain features that are not open ground, meaning no hills and no vortexes. Note that this also affects units already in terrain prior to the give ground move, meaning that a unit already in terrain can't give ground and instead does not move"
+    "content": ""
   },
   {
     "filename": "208-do-you-have-to-be-eligible-for-a-wizardly-dispell-attempt-to.md",
@@ -1993,11 +1869,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "GW FAQ Ravening Hordes",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Yes, the GW FAQ to Glowing Green Amulet is only about this specific item"
+    "content": ""
   },
   {
     "filename": "209-what-happens-if-a-unit-makes-contact-with-another-unit-not-b.md",
@@ -2009,11 +1884,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Accidental Contact during a Charge CRB 131",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "If it was clear at the time of the charge declaration that the projected charge will end like this and you will hit the second unit during alignment, no matter the charge roll, you have to declare a charge against both units. If there is a slight possibility to avoid this situation, the unit should try and wheel around that unit. If it is impossible to avoid the contact in any case with the given charge roll result (but would have been with a better charge roll result), the charging unit conducts an accidental contact during a charge and may chose to either halt the charge (leading to a disordered charge with most likely only 1 model in base contact against the original charge target) or to continue (leading to a disordered charge with both units, in which the accidental contacted units might try to align). If the unit continues into a fleeing unit, the fleeing unit is destroyed and the charging unit's movement comes to an end. The charged unit wheels to align if necessary, in which case the charging unit makes a disordered charge."
+    "content": ""
   },
   {
     "filename": "210-if-you-declare-a-charge-against-multiple-units-is-that-charg.md",
@@ -2025,11 +1899,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Multiple Charge Targets CRB 130\nAccidental Contact during a Charge CRB 131",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "No, this is still a valid charge."
+    "content": ""
   },
   {
     "filename": "211-does-a-lion-cloak-improve-the-models-armour-save-if-it-is-on.md",
@@ -2041,11 +1914,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Arcane Journal High Elves",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Since Lion Cloak is a special rule that is shared with the whole model it works. The Pelt of Charandis is an equipment that only benefits the wearer - Korhil Lionmane, so in this case he is not able to improve the armour save of the Chariot."
+    "content": ""
   },
   {
     "filename": "212-can-you-cast-assailment-spells-during-a-warriors-duel-like-i.md",
@@ -2057,11 +1929,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Warriors of Chaos Warrior Duel",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Yes, rounds of combat are conducted in the combat phase, so its possible"
+    "content": ""
   },
   {
     "filename": "213-when-do-you-declare-evasive-against-magic-missiles-before-or.md",
@@ -2073,11 +1944,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Evasive CRB 168\nMagic Missiles CRB 108\nWho can Shoot? CRB 137",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Before the casting roll is even made. The wizard then may chose to not make the casting roll. (\"unit may continue with its shooting as declared\")"
+    "content": ""
   },
   {
     "filename": "214-can-you-use-the-icon-rakaph-to-pivot-during-an-overrun-move-.md",
@@ -2089,11 +1959,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Tomb Kings of Khemri RH",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Yes"
+    "content": ""
   },
   {
     "filename": "215-goad-beast-during-the-command-sub-phase-of-their-turn-this-c.md",
@@ -2105,11 +1974,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Dark Elves",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "No, only the mount, see 'including their own mount' - see Split Profile (monster mount) - The character and mount each use their own Weapon Skill, Ballistic Skill, Strength, Initiative and Attacks characteristics,"
+    "content": ""
   },
   {
     "filename": "216-if-a-unit-marches-through-difficult-terrain-how-is-the-movem.md",
@@ -2121,11 +1989,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Marching CRB 123\nDifficult Terrain CRB 135",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "2(M-1) - Reduce the movement characteristic by one, then double it."
+    "content": ""
   },
   {
     "filename": "217-are-hits-suffered-by-miscast-magical-attacks.md",
@@ -2135,13 +2002,12 @@
     "turn_order": "3 Shooting Phase",
     "date": "2026-02-10",
     "author": "Andreas Schmidt",
-    "referenced_rules": "",
+    "referenced_rules": null,
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Yes, given the nature of spellcasting, they are magical attacks"
+    "content": ""
   },
   {
     "filename": "218-when-calculating-how-many-models-can-shoot-using-volley-fire.md",
@@ -2153,11 +2019,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Volley Fire CRB 180",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "You round after calculating the models in each rank. Example: For a unit that is 5 models wide and 5 ranks deep on level ground, 5 from the first rank, 3 each from the second (5/2=2.5, rounded to 3), third, fourth, and fifth ranks can shoot. In total, 17 models will shoot."
+    "content": ""
   },
   {
     "filename": "219-when-a-model-steps-forward-during-a-combat-then-the-unit-ove.md",
@@ -2169,11 +2034,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Stepping Forward & Closing in CRB 150",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "No. A model may not make attacks during the same phase in which it stepped forward."
+    "content": ""
   },
   {
     "filename": "220-can-i-contact-and-so-charge-an-enemy-unit-if-i-already-have-.md",
@@ -2185,11 +2049,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Accidental Contact During A Charge CRB 131",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Yes, the unit count as redirecting, but it has not redirected."
+    "content": ""
   },
   {
     "filename": "221-can-a-unit-with-random-movement-or-a-unit-that-failed-its-st.md",
@@ -2201,11 +2064,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "GW FAQ\nRandom Movement CRB 176",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Yes, the restrictions on not being able to perform manoeuvres are only applied when moving with their random movement dice or Movement characteristic."
+    "content": ""
   },
   {
     "filename": "222-what-is-happening-when-a-model-with-random-movement-is-put-i.md",
@@ -2217,11 +2079,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "GW FAQ\nRandom Movement CRB 176",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "The unit is destroyed - no charge reaction is given when being contacted by a unit with random movement."
+    "content": ""
   },
   {
     "filename": "223-when-a-cavalry-unit-in-skirmish-formation-is-charged-by-a-un.md",
@@ -2233,11 +2094,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Skirmishers in Combat CRB 185",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Yes, the Skirmish formation rule says the models form up \"edge-to-edge and front corner to front corner, against the enemy\", which cannot have other sense than \"visual front\" for a unit with only front arcs."
+    "content": ""
   },
   {
     "filename": "227-what-happens-if-more-than-up-to-the-half-of-a-unit-are-withi.md",
@@ -2249,11 +2109,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Woodland Boundaries CRB 270",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "The unit still counts as being in light cover."
+    "content": ""
   },
   {
     "filename": "228-how-do-you-deteremine-cover-if-a-model-can-see-multiple-arcs.md",
@@ -2263,13 +2122,12 @@
     "turn_order": "3-2 Shooting Phase Roll to Hit",
     "date": "2026-02-10",
     "author": "Andreas Schmidt",
-    "referenced_rules": "",
+    "referenced_rules": null,
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Take into account only the arc the shooting model is in, then apply the rules for cover. For Skirmishers, count models individually, but only those a model could see."
+    "content": ""
   },
   {
     "filename": "229-sometimes-when-a-unit-of-skirmishers-charges-or-is-charged-s.md",
@@ -2281,11 +2139,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "GW FAQ",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "The unit loses coherency, as described on page 184. This means models belonging to the unit must be removed from play as casualties until the unit becomes coherent. Note that this means that all models, that have not enough movement to get to their position (formed up) in the combat are destroyed."
+    "content": ""
   },
   {
     "filename": "230-can-a-character-move-more-than-twice-its-movement-to-use-mov.md",
@@ -2297,11 +2154,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "GW FAQ",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Yes. Since the fighting rank is at a fixed location, he is obliged to move that distance to get to the fighting rank. The only times when a character inside of a unit is subject to this (besides normal maneuvering/moving) is Reform and Redress the ranks."
+    "content": ""
   },
   {
     "filename": "231-how-do-you-resolve-forming-up-with-non-fitting-characters-in.md",
@@ -2311,13 +2167,12 @@
     "turn_order": "2-2 Movement Phase Charge Moves",
     "date": "2026-02-10",
     "author": "Andreas Schmidt",
-    "referenced_rules": "",
+    "referenced_rules": null,
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Form a fighting rank, starting with the model that made contact first. Ignore the base difference for characters, the extra base size will make very little difference to the shape of the unit - maybe there will be some slight gaps inside of the unit. The controlling player may move the remaining models in any order, given that the rules for forming (up to single movement characteristic) are adhered. A character that is not in the fighting rank might then move through the ranks to get in base contact with an opponent. Remember it is not allowed to have more characters than non-characters in the fighting rank."
+    "content": ""
   },
   {
     "filename": "232-how-many-wailing-dirges-does-a-mortis-engine-have.md",
@@ -2329,11 +2184,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Vampire Counts",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "You only do one wailing dirge attack for the whole mortis engine."
+    "content": ""
   },
   {
     "filename": "234-does-a-unit-partially-on-a-hill-gets-cover-for-models-for-wh.md",
@@ -2343,13 +2197,12 @@
     "turn_order": "3-2 Shooting Phase Roll to Hit",
     "date": "2026-02-10",
     "author": "Andreas Schmidt",
-    "referenced_rules": "",
+    "referenced_rules": null,
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Yes. (RAW)"
+    "content": ""
   },
   {
     "filename": "235-does-a-unit-gets-cover-when-the-los-that-checks-cover-is-par.md",
@@ -2361,11 +2214,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "GW FAQ\nVantage Point CRB 271\nBeyond the Crest CRB 271",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Yes"
+    "content": ""
   },
   {
     "filename": "236-if-a-unit-wants-to-shoot-at-units-on-a-hill-do-units-that-ar.md",
@@ -2377,11 +2229,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "GW FAQ\nVantage Point CRB 271\nBeyond the Crest CRB 271",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "No, since they can see you over that unit, you can see them too - the rules for being closer to the center of the hill works both ways, imagine the unit closer to the center being higher elevated."
+    "content": ""
   },
   {
     "filename": "237-can-you-see-a-unit-that-is-only-partially-on-a-hill-and-can-.md",
@@ -2393,11 +2244,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "GW FAQ\nVantage Point CRB 271\nBeyond the Crest CRB 271",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Yes, given no other unit closer to the center of that hill obstructs that LoS. Also Models partial on a hill see over models that are not on that hill."
+    "content": ""
   },
   {
     "filename": "239-does-a-wizarding-hat-allow-a-character-to-buy-arcane-items.md",
@@ -2409,11 +2259,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "GW FAQ",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "No, GW clearly states that the wizarding hat has some unique restrictions in place. The Character cannot buy arcane items."
+    "content": ""
   },
   {
     "filename": "240-how-do-laser-beam-spells-and-attacks-such-as-gaze-of-gork-bu.md",
@@ -2423,13 +2272,12 @@
     "turn_order": "3-1 Shooting Phase Declare Target",
     "date": "2026-02-10",
     "author": "Andreas Schmidt",
-    "referenced_rules": "",
+    "referenced_rules": null,
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Once the spell is cast, choose a direction, then determine the distance of the line. This line does not require a target and therefore ignores all targeting rules, i.e. it can be drawn over LoS-blocking terrain, hit models in combat, lone characters, fanatics, and models the caster doesn't have LoS to."
+    "content": ""
   },
   {
     "filename": "241-can-characters-with-the-ambush-special-rule-join-a-unit-with.md",
@@ -2441,11 +2289,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Reserves CRB 285",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Yes they can, use the rules for Characters and Reserves - announce each turn before rolling any dices"
+    "content": ""
   },
   {
     "filename": "242-do-frenzied-or-impetuous-units-always-have-to-use-swiftstrid.md",
@@ -2457,11 +2304,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "GW FAQ",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Yes, see GW FAQ they always will use special rules that benefit their charge."
+    "content": ""
   },
   {
     "filename": "244-what-happens-when-only-a-few-skirmishers-are-moved-off-the-b.md",
@@ -2473,11 +2319,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Skirmishers CRB 184f\nGW FAQ",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "The whole unit is remove from the game"
+    "content": ""
   },
   {
     "filename": "245-how-do-skirmishers-do-give-ground-what-happens-when-they-hit.md",
@@ -2489,11 +2334,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Skirmishers CRB 184f",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Determine the center / direction for the unit, then move all models paralle in this direction. If models hit an obstacle, the whole unit stops"
+    "content": ""
   },
   {
     "filename": "246-how-do-skirmishers-conduct-a-flee-move-what-happens-when-the.md",
@@ -2505,11 +2349,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Skirmishers CRB 184f",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Determine center-to-center, then flee with all models parallel in this direction. If models flee through units, move the whole unit the same distance."
+    "content": ""
   },
   {
     "filename": "247-do-skirmisher-units-pivot-around-their-centre-before-fleeing.md",
@@ -2521,11 +2364,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Skirmishers CRB 184f",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "No, Skirmishers are moved on a model-to-model base therefore do not pivot the unit"
+    "content": ""
   },
   {
     "filename": "248-if-a-unit-with-the-fly-x-special-rule-declares-and-makes-a-c.md",
@@ -2537,11 +2379,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "GW FAQ",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Declare which movement will be used as the unit declares the charge"
+    "content": ""
   },
   {
     "filename": "250-multiple-charges-into-skirmishers-what-happens-if-you-get-a-.md",
@@ -2553,11 +2394,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "GW FAQ",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Skirmishers as GW FAQ do not have arcs, just move in the side presented to you after forming up."
+    "content": ""
   },
   {
     "filename": "251-multiple-charges-into-skirmishers-what-happens-if-the-formed.md",
@@ -2569,11 +2409,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "GW FAQ",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Go to the side of that \"arc\"(\"flank\" - remember, no arcs), but you have to able to get there with only 1 wheel, else you fail the charge"
+    "content": ""
   },
   {
     "filename": "252-multiple-charges-into-skirmishers-what-happens-if-you-can-go.md",
@@ -2585,11 +2424,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "GW FAQ",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Charge to the side, maximizing has priority, but remember that you are only allowed to do one wheel, sometimes you will be able to do this, while sometimes you have to priorize charging over maximizing - use the principles of charging, priorizing top to bottom."
+    "content": ""
   },
   {
     "filename": "253-can-characters-without-the-ambush-special-rule-join-a-unit-w.md",
@@ -2601,11 +2439,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Reserves CRB 285\nAmbushers CRB 166",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "No"
+    "content": ""
   },
   {
     "filename": "254-can-you-drill-a-unit-that-is-part-of-multiple-units-charging.md",
@@ -2617,11 +2454,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Drilled CRB 167\nMultiple Charging Units CRB 130",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "No, Drilled takes place before the charge move and the units are considered to move simultaneously. Would the units charge different targets, the active player could first move the blocking units away and drill then. With multiple units charging the same target, this is not possible."
+    "content": ""
   },
   {
     "filename": "255-how-do-you-charge-skirmishers-with-skirmishers.md",
@@ -2633,11 +2469,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Skirmishers CRB 184f",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Pivot the closest skirmisher directly towards the closest visible model. Charge in straight lines as directly as possible towards the closest visible model without further pivoting or wheeling. When you make contact, align the defending model to the charging model. Then build up a fighting rank as described in the rulebook - for skirmishers vs. skirmishers, every model that is able to reach the fighting rank will do so. After that, the defending unit forms up."
+    "content": ""
   },
   {
     "filename": "256-can-a-unit-that-is-charging-make-use-of-the-drilled-special-.md",
@@ -2649,11 +2484,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Multiple Charge Targets CRB 130\nAccidental Contact During a Charge CRB 131",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "No, unless the unit is in marching column and the minimum widt requested to leave the marching column already causes accidental / a multiple target charge. In that case the unit is allowed to Redress the ranks to be able to charge and conduct a multiple charge against other targets, but only against those needed to actually conduct the charge."
+    "content": ""
   },
   {
     "filename": "257-if-a-doom-diver-fires-indirectly-do-you-allow-for-a-d3-inste.md",
@@ -2665,11 +2499,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Orcs and Goblins",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Yes, the second part of the Doom Diver Rule referes to the indirect fire part of the bombardment rule of 225, so the first part gets applied too."
+    "content": ""
   },
   {
     "filename": "258-if-a-unit-is-not-listed-in-the-army-list-composition-section.md",
@@ -2679,13 +2512,12 @@
     "turn_order": "0 General Rules",
     "date": "2026-02-10",
     "author": "Andreas Schmidt",
-    "referenced_rules": "",
+    "referenced_rules": null,
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "No, they are character units."
+    "content": ""
   },
   {
     "filename": "259-are-the-attacks-of-nurgling-infestation-or-similar-abilities.md",
@@ -2697,11 +2529,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Daemons of Chaos",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "No, treat all such attacks which explicitly state a S and AP as attacks with hand weapons with the according profile. Note that universal special rules of the model (like armour bane or poisoned attacks) will translate to these attacks, but special rules of weapons that model uses don't."
+    "content": ""
   },
   {
     "filename": "260-can-a-champion-move-through-the-ranks.md",
@@ -2713,11 +2544,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Moving through the Ranks CRB 208",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "No, only non-champion characters are allowed to do so."
+    "content": ""
   },
   {
     "filename": "261-when-moving-through-the-ranks-to-join-the-fighting-rank-can-.md",
@@ -2729,11 +2559,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Moving through the Ranks CRB 208",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "A character can freely choose any position in the fighting rank, regardless of base contact or not."
+    "content": ""
   },
   {
     "filename": "262-can-skirmishers-charge-around-units-or-change-the-direction-.md",
@@ -2745,11 +2574,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Charge Move CRB 126",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "No, skirmishers have to adhere to the overall guidelines of charging and are therefore only allowed to change direction once."
+    "content": ""
   },
   {
     "filename": "263-how-do-you-flee-along-an-impassable-terrain-if-a-fleeing-uni.md",
@@ -2761,11 +2589,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Fleeing through Terrain CRB 133",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Pivot multiple times and move along it, and return to the original path of fleeing if possible / as good as possible"
+    "content": ""
   },
   {
     "filename": "264-if-i-have-multiple-characters-base-does-not-fit-neatly-non-f.md",
@@ -2777,11 +2604,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Positioning Characters CRB 207",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "The characters join the front of the unit and are placed on either the left or right flank, as shown in Figure (need reference from rules). Only one such character can be placed on each flank of the unit. For determining marching column or combat order, these models are ignored."
+    "content": ""
   },
   {
     "filename": "266-does-a-champion-count-for-the-bretonnia-exiles-blessing-if-s.md",
@@ -2791,13 +2617,12 @@
     "turn_order": "0 Faction Rules",
     "date": "2026-02-10",
     "author": "Andreas Schmidt",
-    "referenced_rules": "",
+    "referenced_rules": null,
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "No, only non-champion characters are counting for this and a champion cannot get the blessing separately from the unit"
+    "content": ""
   },
   {
     "filename": "267-can-a-champion-shoot-magic-missiles-from-bound-spells-or-wiz.md",
@@ -2809,11 +2634,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Characters and Shooting CRB 209\nChampions CRB 199",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Yes, the wording for characters on 209 is the same as for champions on 199. This heavily implies that the exemption also counts for champions."
+    "content": ""
   },
   {
     "filename": "268-can-characters-shoot-multiple-magic-missiles-per-turn-into-d.md",
@@ -2825,11 +2649,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Characters and Shooting CRB 209",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Yes he can, the exemption for magic missiles on 209 is to be applied - a character can divide his magic missiles into different targets, chosing targets when each spell is cast."
+    "content": ""
   },
   {
     "filename": "269-do-models-with-the-fly-x-rule-suffer-a-1-movement-penalty-an.md",
@@ -2841,11 +2664,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Fly (X) CRB 169",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Yes, models with fly (x) always begin their movement on the ground, and any unit that start their movement in terrain suffers its effects."
+    "content": ""
   },
   {
     "filename": "270-with-the-new-gw-faq-about-taking-wheeling-into-account-for-a.md",
@@ -2857,11 +2679,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "GW FAQ\nSwiftstride CRB 178",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "The opponent unit has to be both within M+9 maximum charge range and it has to be possible to conduct the charge with M+9 including the wheels."
+    "content": ""
   },
   {
     "filename": "271-how-is-a-unit-of-skirmishers-moved-by-the-spell-travel-mysti.md",
@@ -2871,13 +2692,12 @@
     "turn_order": "2-4 Movement Phase Remaining Moves",
     "date": "2026-02-10",
     "author": "Andreas Schmidt",
-    "referenced_rules": "",
+    "referenced_rules": null,
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Move each model individually up to 12\", maintaining coherency and at least 6\" away from any enemy unit."
+    "content": ""
   },
   {
     "filename": "272-can-you-cast-a-remains-in-play-spell-that-is-already-casted.md",
@@ -2889,11 +2709,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "GW FAQ",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Yes. While the rulebook says no, GW FAQ clarifies that the spell can be attempted to cast, but the current active spell is ended on the attempt."
+    "content": ""
   },
   {
     "filename": "273-what-happens-if-two-friendly-units-that-stand-base-to-base-n.md",
@@ -2905,11 +2724,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Pivoting CRB 125\nPursuit CRB 156",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Pursuit moves are done one after each other. During a Pivot, units ignore the presence of other units. While you go straight forward after that pivot and you cannot wheel to maximize or go around other units, consider this pivot being part of the pursuit move. First pivot, then pursuit with one unit, then with another. In most cases, this will lead to the second unit being blocked to move, but the first unit is able to pursuit."
+    "content": ""
   },
   {
     "filename": "274-if-galrauch-fails-a-leadership-test-when-does-the-condition-.md",
@@ -2921,11 +2739,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Warriors of Chaos",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Until the start of his next turn, since he has to test again"
+    "content": ""
   },
   {
     "filename": "275-should-all-effects-that-impact-stand-and-shoot-apply-to-all-.md",
@@ -2937,11 +2754,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Stand & Shoot CRB 120\nFire & Flee CRB 169",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Yes, errata all rules that impact stand and shoot to apply to any rule that uses it as part of its functions (Banner of Chalons, Quick Shot)"
+    "content": ""
   },
   {
     "filename": "276-in-order-to-overrun-a-unit-must-destroy-its-enemy-completely.md",
@@ -2953,11 +2769,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Overrun CRB 156",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "This refers to all enemy units the unit is engaged in combat with—specifically, those in base contact. In combats involving multiple units, even if the enemy units in direct base contact are wiped out, the unit remains part of the combat until end of turn. Combat results still factor in this unit, and it must undergo any required break tests and suffer all consequences."
+    "content": ""
   },
   {
     "filename": "277-what-happens-when-a-model-that-belongs-to-a-unit-of-multiple.md",
@@ -2969,11 +2784,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Multiple Wound Models CRB 102",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Besides the champion, always use the rule for removing casualties from multiple wound models ( 102). Resolve the hits against the specific model but if another model is already wounded, that model will suffer the lost wounds - always allocate wounds to one model after another. If a model would lose more wounds than it has in its wound characteristic by such attacks or hits, the unit will only use that many wounds as are left on that specific model."
+    "content": ""
   },
   {
     "filename": "278-how-do-you-follow-up-and-what-happens-if-while-performing-th.md",
@@ -2985,11 +2799,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Accidental Contact CRB 130\nFollow Up CRB 156",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "To conduct a follow up move, do the opposite of give ground: move directly towards the enemy unit that gave ground, without turning, pivoting or otherwise changing its facing in any way until you make contact or until you stop because of contact with an impassable terrain or friendly unit. If you contact another enemy unit, this is accidental contact (pg. 131). if the enemy unit is contacted in the rear or flank, or if it is already in combat, nudge that unit and any units it is in combat with) aside and conduct the follow up move. If the enemy unit is contacted in its front, it can chose to accept the combat, effectively stopping the follow up move or give ground to avoid it."
+    "content": ""
   },
   {
     "filename": "279-can-you-decide-not-to-use-lore-familiar-even-if-the-wizard-b.md",
@@ -3001,11 +2814,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Lore Familiar CRB 343",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "If the Wizard opts not to do it they don’t get any spells at all RAW"
+    "content": ""
   },
   {
     "filename": "280-what-happens-when-a-model-with-a-shooting-attack-that-wounds.md",
@@ -3017,11 +2829,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Split Profile CRB 97\nSplit Profile Warmachines CRB 197",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Use the initiative value elsewhere on the model (the crew)"
+    "content": ""
   },
   {
     "filename": "281-regarding-the-challenges-mounts-change-how-do-you-determine-.md",
@@ -3033,11 +2844,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "GW FAQ",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "If one participant of the challenge is slain in one initiative step, all attacks with a lower initiative in this combat are lost and will not be conducted. You can only score overkill from attacks of the same initiative of the step in which the participant is slain."
+    "content": ""
   },
   {
     "filename": "282-can-you-still-counter-charge-on-turn-1-after-a-vanguard-move.md",
@@ -3049,11 +2859,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "GW FAQ",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Yes. The new ruling states that you cannot declare a charge during your first turn. Counter Charge would be in the opponent's first turn"
+    "content": ""
   },
   {
     "filename": "283-how-do-poisoned-attacks-work-can-i-chose-which-attacks-get-t.md",
@@ -3065,11 +2874,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "GW FAQ",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Keep it as simple as possible - Just separate the poison hits from your normal attacks after directing attacks to the target and roll a separate batch of dices for the wound roll of these poisoned attacks. Keep dice batches for different targets separate during both to hit and to wound. Poisoned hits wil always apply to wound rolls of the same type of attacks they were made of in case the model has different weapons"
+    "content": ""
   },
   {
     "filename": "284-spider-banner-can-the-unit-wound-automatically.md",
@@ -3081,11 +2889,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Orcs and Goblins",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "No they can't, they just get Poison on natural 5+ instead of 6 if they already had poison before."
+    "content": ""
   },
   {
     "filename": "285-big-smartz-if-a-unit-failed-a-stupidity-test-but-succeeds-an.md",
@@ -3097,11 +2904,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Orcs and Goblins",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "No, a stupid unit ceases to be stupid if it succeeds a stupidity test."
+    "content": ""
   },
   {
     "filename": "286-what-happens-when-a-model-that-belongs-to-a-unit-of-single-w.md",
@@ -3111,13 +2917,12 @@
     "turn_order": "0 General Rules",
     "date": "2026-02-10",
     "author": "Andreas Schmidt",
-    "referenced_rules": "",
+    "referenced_rules": null,
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "If the model and not the unit is hit, the model is killed, but wounds from additional hits do not spill over to other models"
+    "content": ""
   },
   {
     "filename": "287-how-do-you-determine-in-which-arc-of-a-charge-target-a-singl.md",
@@ -3129,11 +2934,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "GW FAQ",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Only check the front edge of the model - if the majority of the front edge of a model is in one arc, then charge this arc. If you cannot come to an agreement with your opponent, charge the arc which offers the lower combat resolution"
+    "content": ""
   },
   {
     "filename": "288-is-the-sapper-dig-in-rule-to-be-played-the-same-way-as-earth.md",
@@ -3145,11 +2949,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Arcane Journal Dwarf Mountain Holds",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Yes, and units can only do 1 Attack per model, no impact hits, no stomp attacks."
+    "content": ""
   },
   {
     "filename": "289-do-one-handed-magic-weapons-which-do-not-count-as-any-other-.md",
@@ -3161,11 +2964,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "GW FAQ",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Only if the weapon is specifically stated to be or count as hand weapon (right now that is only the wollopa one hit wounda after use)"
+    "content": ""
   },
   {
     "filename": "290-do-parry-from-infantry-and-parry-guardians-of-talsyn-stack.md",
@@ -3177,11 +2979,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "GW FAQ",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Yes, but note that the normal Parry will only be granted if fighting with a hand weapon, not with an Asrai Spear"
+    "content": ""
   },
   {
     "filename": "291-how-do-the-arrows-of-isha-and-the-seafarer-bow-interact.md",
@@ -3193,11 +2994,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Arcane Journal High Elves",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "You take the best of the two profiles of Bow. This effectively gives Bow of the Seafarer with Arrows of Isha the profile; AP-3 AB(1).\""
+    "content": ""
   },
   {
     "filename": "292-if-a-unit-a-is-engaged-with-two-units-b-and-c-one-b-of-which.md",
@@ -3209,11 +3009,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Who can fight CRB 145\nHow many attacks? CRB 146\nMultiple Units in Combat CRB 147",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Since \"the unit\" is specified in the FAQ about fighting ranks, only the models within M\" of Unit C can attack that unit. Please note that these models only get to make 1 A, regardless if they are in base contact with B or not."
+    "content": ""
   },
   {
     "filename": "293-does-the-change-in-regeneration-mean-that-i-can-use-a-regene.md",
@@ -3225,11 +3024,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "GW FAQ",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Yes, as long that it is not mentioned that regeneration saves are not permitted against these attacks. Please note that due to the old wording of regeneration, Killing Blow, Monster Slayer and similar wordings do NOT allow regeneration saves to be made against the wounds lost with these special rules."
+    "content": ""
   },
   {
     "filename": "294-does-the-new-faq-entry-of-the-fighting-rank-mean-that-all-ra.md",
@@ -3241,11 +3039,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "GW FAQ\nThe Fighting Rank CRB 145",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "When two opposing units are engaged in combat, only one row of models—the rank or file that is both in base contact and aligned (or almost in disordered charges) to the enemy’s engaged row—is considered the fighting rank. Other ranks or files that merely contain a single model in contact do not count as fighting ranks. Exceptions to this rule apply only to units in Lance Formation, Skirmishers, and Infantry (which has two fighting ranks in some cases), which may have different fighting rank rules."
+    "content": ""
   },
   {
     "filename": "295-how-would-situations-resolved-where-a-character-without-the-.md",
@@ -3257,11 +3054,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "First Charge CRB 169",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "As long as one model with the rule First Charge is performing its first charge of the game within a unit, the special rule is used and counts as being used for all models that participated in that charge and have the First Charge special rule in that unit"
+    "content": ""
   },
   {
     "filename": "296-when-fighting-against-a-unit-in-lance-formation-can-models-i.md",
@@ -3273,11 +3069,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "GW FAQ\nLance Formation Bretonnia",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Normally they would only have one attack since they do not have base contact. The lance formation rule states that every model in the fighting rank is considered in base contact. This means YES - all models can do all of their attacks and all models in the fighting ranks, independent from their distance to the lance, can fight."
+    "content": ""
   },
   {
     "filename": "297-do-i-have-to-maximize-with-a-lance-charging-another-unit.md",
@@ -3289,11 +3084,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Lance Formation Bretonnia",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "No, since the lance automatically is in base contact, you don't have to maximize at all - just charge the closest way in."
+    "content": ""
   },
   {
     "filename": "298-if-one-of-the-participants-of-a-challenge-is-defending-a-low.md",
@@ -3305,11 +3099,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "GW FAQ",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "No, still treat them as having the LLO between them - 1 Attack each and no Stomp Attacks."
+    "content": ""
   },
   {
     "filename": "299-can-you-do-a-second-bombing-run-with-the-sky-lantern-or-gyro.md",
@@ -3319,13 +3112,12 @@
     "turn_order": "2-4 Movement Phase Remaining Moves",
     "date": "2026-02-10",
     "author": "Andreas Schmidt",
-    "referenced_rules": "",
+    "referenced_rules": null,
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Yes, given the ability does not have a restriction regarding the number (once per remaining move phase or similar) which it can be used per turn or in total."
+    "content": ""
   },
   {
     "filename": "300-can-a-dwarf-with-a-weapon-that-has-weapon-runes-inscribed-on.md",
@@ -3337,11 +3129,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "GW FAQ",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "As long as the weapon is a hand weapon."
+    "content": ""
   },
   {
     "filename": "301-what-happens-if-a-character-joins-a-single-rank-unit.md",
@@ -3353,11 +3144,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Positioning Characters CRB 207",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "The character goes to the first rank, displacing one model to a newly formed second rank, as described under Positioning Characters."
+    "content": ""
   },
   {
     "filename": "302-with-the-new-ruling-on-shooting-at-characters-that-have-join.md",
@@ -3369,11 +3159,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "GW FAQ",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "The character is targeted instead of the unit. All Line of Sight and Range are measured towards the character. Note that the unit is not able to use evasive or similar special rules and the character cannot be protected by 'Lone character' rules."
+    "content": ""
   },
   {
     "filename": "303-how-do-you-calculate-the-correct-armour-save-if-you-have-par.md",
@@ -3385,11 +3174,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "GW FAQ",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Parry cannot improve your armour save beyond a 3+ value. This means that when calculating the base armour save (before any roll modifiers), Parry will cap the result at 3+ if not improved by other means. However, if the unit is affected by a rule that modifies the armour save value itself (e.g. Plague of Rust), you can balance positive and negative modifiers against each other. For example Rune of Oath & Steel. Note that modifiers to the armour save roll—like Armour Piercing, Totem of Rust, etc.—do not interact with this cap and leave it at 3+. They apply after the save value is determined, and reduce the final roll needed for success."
+    "content": ""
   },
   {
     "filename": "304-if-an-infantry-model-that-has-an-2-armour-save-without-parry.md",
@@ -3401,11 +3189,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "GW FAQ",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "While the model has to use parry, parry only improves the armour save - therefore, the model retains its 2+ Asv. Note that you cannot use the parry bonus to get to a 2+ Armour Save by any means."
+    "content": ""
   },
   {
     "filename": "305-can-you-take-a-virtue-of-the-duty-or-ideal-even-if-that-mean.md",
@@ -3417,11 +3204,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Bretonnia\nGW FAQ",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Yes, only the BSB is mentioned in GWs FAQ on the highest leadership. This also means in your army you can include mercenaries or other characters that are not able to be the general with a higher leadership than your general."
+    "content": ""
   },
   {
     "filename": "306-if-a-unit-with-the-ethereal-or-the-grinding-wheel-steam-tank.md",
@@ -3431,13 +3217,12 @@
     "turn_order": "2-2 Movement Phase Charge Moves",
     "date": "2026-02-10",
     "author": "Andreas Schmidt",
-    "referenced_rules": "",
+    "referenced_rules": null,
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Yes. They can charge and will only contact the LLO, losing impact hits and can only do one attack per model. Note that for a Steam Tank and an Iron Daemon LLOs count as open terrain, so they can actually ignore the LLO and contact the unit directly, effectively denying the defending of the LLO for them, charging on top of a physical LLO or just in base contact in the case of Earthen Ramparts/Entrenched."
+    "content": ""
   },
   {
     "filename": "307-how-do-you-charge-a-unit-behind-a-defended-low-linear-obstac.md",
@@ -3447,13 +3232,12 @@
     "turn_order": "2-2 Movement Phase Charge Moves",
     "date": "2026-02-10",
     "author": "Andreas Schmidt",
-    "referenced_rules": "",
+    "referenced_rules": null,
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Charge the LLO and align towards the LLO instead of the unit. Note that you have to charge the LLO in a way that at least one model of the charging unit is in the front arc of the defending unit, else the charge is considered to be a failed charge. Maximise in a way that as many models as possible are within M\" of each other. Also remember that a Lance blunts if charging a unit behind a LLO because it is considered to have conducted a disordered charge."
+    "content": ""
   },
   {
     "filename": "308-does-the-ability-thunderous-impact-of-the-grand-army-of-cath.md",
@@ -3465,11 +3249,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Thunderous Impact",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "It is a special rule with a modifier, which stack per default. Also in the wording, \"the strike point\" is mentioned, so it stacks for each strike point, similar to Mortis Engines."
+    "content": ""
   },
   {
     "filename": "309-since-ap-modifies-the-dice-roll-and-not-the-armour-save-does.md",
@@ -3481,11 +3264,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Armour of Meteoric Iron CRB 340",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Yes, the intent of the Armour of Meteoric Iron is clearly to prevent Armour Piercing to apply. Note that the Armour of Meteoric Iron is a heavy Armour as noted in the italics and thus a suit of armour."
+    "content": ""
   },
   {
     "filename": "310-how-do-you-determine-how-many-models-can-strike-back-when-a-.md",
@@ -3497,11 +3279,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "GW FAQ",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "When resolving combat, GW FAQ states that models in the Fighting Rank that are able to fight are removed and after that models that are able to fight in the Supporting rank (Spears) are removed. Note that the FAQ on the Fighting Rank specifies that only models within M\" are able to fight, so remove these models from the Fighting Rank first, reducing their attacks and then reduce models in the Supporting rank within M\" to reduce the supporting attacks. After that, the unit cannot strike back (except for characters and champion) and casualties are applied to the unit normally. If the unit has two fighting ranks, you may choose from which of the two ranks and from which side to remove models. For single-rank units, alternate the removal of models from each end of the fighting rank."
+    "content": ""
   },
   {
     "filename": "311-how-do-abilities-like-gnashing-maws-gigantic-spawn-of-chaos-.md",
@@ -3513,11 +3294,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "GW FAQ",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Regeneration is no longer a save, so a wound from Gnashing Maws counts as an unsaved wound regardless of whether regeneration is successful. Effects that require a model to lose its last wound will only trigger if the model actually destroyed and removed as a casualty."
+    "content": ""
   },
   {
     "filename": "312-can-an-engineer-in-combat-use-a-pigeon-bomb.md",
@@ -3529,11 +3309,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Pigeon Bombs Forces of Fantasy 77",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "No because this is \"instead of shooting normally\", so the engineer needs to be able to shoot"
+    "content": ""
   },
   {
     "filename": "313-can-a-model-direct-his-impact-hits-on-a-champion-if-there-is.md",
@@ -3545,11 +3324,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "GW FAQ",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Yes, there is a paragraph in characters that prevents doing it on characters (if there are 5+ r&f models in the unit) and no such things for champions"
+    "content": ""
   },
   {
     "filename": "314-given-the-faq-for-open-orders-quick-turn-does-this-apply-to-.md",
@@ -3561,11 +3339,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Lumbering CRB 195\nGW FAQ",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Only Quick Turn is mentioned, Lumbering can still be used outside of sequence"
+    "content": ""
   },
   {
     "filename": "315-when-items-or-abilites-do-enhance-the-range-of-a-spell-do-th.md",
@@ -3575,13 +3352,12 @@
     "turn_order": "0 General Rules",
     "date": "2026-02-10",
     "author": "Andreas Schmidt",
-    "referenced_rules": "",
+    "referenced_rules": null,
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Only the range for targeting units is extended, so spell effects are not increased. In Detail: For Vortex Spells, the range of effect is not enhanced, only the range for template placement. For Conveyance pells, the target range is increased but not the range of replacement (Travel Mystical Pathways, Infernal Gateway). For Spells with Self range, nothing is increased. For Gaze of Gork, the Range is extended."
+    "content": ""
   },
   {
     "filename": "316-can-characters-that-joined-a-unit-of-the-same-troop-type-be-.md",
@@ -3593,11 +3369,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "GW FAQ",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "No, the only change that GW's errata makes is to prevent characters of different types from receiving the protection enjoyed by same-type characters in units. When there are fewer than five rank and file models in a unit, the second paragraph of \"Enemy Shooting\" in the errata gives you instructions of how such characters can be hit when their units aren't of sufficient size."
+    "content": ""
   },
   {
     "filename": "318-stupidity-what-happens-if-a-stupid-unit-breaks-and-flees-fbi.md",
@@ -3609,11 +3384,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "GW FAQ\nStupidity CRB 178",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "The unit does flee, give ground etc, but cannot reform when rallying, changing face or doing similar abilities - it will just conduct flee moves and give ground. Note that this also mean that you cannot use TMP or similar spells on the unit."
+    "content": ""
   },
   {
     "filename": "319-can-conveyance-spells-be-cast-on-units-or-targets-who-alread.md",
@@ -3625,11 +3399,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "GW FAQ",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Unless otherwise specified in the spell's description, conveyance spells can be cast on any valid friendly unit, respecting the normal criteria for choosing a target (i.e. within the caster's vision arc and range, not engaged in combat). Specific constraints and/or allowances may be defined in the spell's description, e.g. regarding the target unit/character's movement before and/or after the spell, or whether it is fleeing or engaged in combat."
+    "content": ""
   },
   {
     "filename": "320-can-you-defend-a-low-linear-obstacle-with-skirmishers.md",
@@ -3641,11 +3414,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "GW FAQ\nSkirmishers in Combat CRB 185",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "No, since you do not have a front rank. However, if you are under the effect of an ability that counts the unit as defending a LLO (Earthen Ramparts, Entrench, etc...) you get the bonus. Note however, that some of these rules cease to apply when the unit moves; forming up to a charging enemy (among other things) would remove these benefits."
+    "content": ""
   },
   {
     "filename": "321-low-linear-obstacles-and-flank-charges-the-rules-only-state-.md",
@@ -3657,11 +3429,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "GW FAQ\nDefended Low Linear Obstacle CRB 270",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Only the Front arc counts as being defended, even for a LLO that is magically summoned or an entrenched unit. If the charging unit charges on the flank and has not sufficient movement to charge around the LLO to get into the flank, it is allowed to straddle the LLO and charge through difficult terrain, ending up disrupted."
+    "content": ""
   },
   {
     "filename": "322-how-do-you-defend-an-low-linear-obstacle-aka-how-do-you-move.md",
@@ -3673,11 +3444,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "GW FAQ",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "You have to wheel forward, until your front rank is parallel aligned with the LLO. If you do not have sufficient movement, you cannot defend the LLO"
+    "content": ""
   },
   {
     "filename": "323-do-characters-in-units-count-against-the-minimum-us-for-scor.md",
@@ -3687,13 +3457,12 @@
     "turn_order": "0 General Rules",
     "date": "2026-02-10",
     "author": "Andreas Schmidt",
-    "referenced_rules": "",
+    "referenced_rules": null,
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Yes, regardless of their unit type"
+    "content": ""
   },
   {
     "filename": "324-if-a-unit-suffers-more-unsaved-wounds-than-it-has-remaining-.md",
@@ -3705,11 +3474,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "GW FAQ",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Excess wounds are applied after Regeneration. However, remember that Regeneration saves are not mandatory. The unit can chose to not roll a single regeneration save to not give up more CR than it has remaining wounds. If the unit choses to roll Regeneration saves, it can chose to roll any number up to the number of unsaved wounds. After all Regeneration saves have been made, the unit loses an amount of unsaved wounds up to the maximum of its remaining wound count."
+    "content": ""
   },
   {
     "filename": "325-since-killing-blow-monster-slayer-only-states-roll-a-6-on-a-.md",
@@ -3721,11 +3489,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Ethereal CRB 167\nKilling Blow CRB 172\nMonster Slayer CRB 173",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "No! Killing Blow / Monster Slayer states that there has to be an \"unsaved wound\" for it to work - but Ethereal units can only be wounded by magical attacks."
+    "content": ""
   },
   {
     "filename": "326-does-heavenly-beacon-ability-of-sky-lantern-stack.md",
@@ -3737,11 +3504,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Grand Cathay Sky Lanterns",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Yes"
+    "content": ""
   },
   {
     "filename": "327-can-you-shoot-a-model-with-the-column-of-fire-rule-in-a-way-.md",
@@ -3753,11 +3519,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Fire Throwers CRB 229",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "No, similar to normal cannons, since you aim with a weapon that has this rule, you cannot risk shooting in a way that you hit combat (see the wording of \"intended target\")"
+    "content": ""
   },
   {
     "filename": "328-how-is-the-1-to-hit-from-fear-applied-in-multi-unit-combats-.md",
@@ -3769,11 +3534,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Fear CRB 168",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "The -1 is applied to the unit that fails the test against all units that cause fear and have a higher US then the unit that failed the test in this combat."
+    "content": ""
   },
   {
     "filename": "329-if-a-skaven-character-uses-his-verminous-valour-rule-does-he.md",
@@ -3785,11 +3549,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Skaven",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Yes. Verminous valour is clear: the character retires. Follow the normal rules for characters retiring, with the exception that the character will continue to confer their leadership to the unit. However, the character has not refused a challenge, and is therefore able to move through the ranks agin in future round of combat."
+    "content": ""
   },
   {
     "filename": "330-what-happens-if-a-cathayan-warmachine-which-has-an-ogre-atta.md",
@@ -3801,11 +3564,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Grand Cathay",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "The Ogre stays alive and is now a simple character on its own. Note that his victory points are still granted similar to fanatics"
+    "content": ""
   },
   {
     "filename": "331-since-skirmishers-require-line-of-sight-from-more-than-50-th.md",
@@ -3817,11 +3579,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "GW FAQ",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Yes, a unit can only use Counter Charge against an enemy they are allowed to charge."
+    "content": ""
   },
   {
     "filename": "332-can-you-touch-the-flank-of-a-unit-to-charge-the-front-corner.md",
@@ -3833,11 +3594,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Disordered Charge CRB 128",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "If the full front arc is occupied, according to GW, you cannot charge the front at all. If even the tiniest bit of the front is unoccupied on a corner, you can do a disordered charge against the corner but note that you have to be able to position before aligning."
+    "content": ""
   },
   {
     "filename": "333-in-the-notes-of-the-iron-hail-gun-it-specifies-the-following.md",
@@ -3849,11 +3609,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Grand Cathay",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Just the iron hail gun, as the note is part of the weapon's rules, it only applies to the weapon."
+    "content": ""
   },
   {
     "filename": "334-if-you-lost-frenzy-can-you-regain-it-by-another-source.md",
@@ -3865,11 +3624,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Frenzy CRB 170\nGW FAQ",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Yes you can. You can even re-gain frenzy by the same source, like Blood Rage. Note that if a BSB with a Banner or a character with an source that grants Frenzy (and does not state it can be regained or never lost) loses frenzy and joins a new unit, that unit won't be frenzied."
+    "content": ""
   },
   {
     "filename": "335-can-you-refuse-a-challenge-in-a-combat-with-multiple-eligibl.md",
@@ -3881,11 +3639,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Challenges CRB 210",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "No, at least one eligible character has to accept the challenge."
+    "content": ""
   },
   {
     "filename": "336-characters-ignore-other-models-in-their-unit-for-los-purpose.md",
@@ -3897,11 +3654,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "GW FAQ",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "It is applied for Shooting, but not for charging. Use the Skirmisher LoS rules for charging. For Shooting, the character ignores other models of the same unit."
+    "content": ""
   },
   {
     "filename": "337-does-the-move-that-leads-up-to-a-situation-where-you-count-a.md",
@@ -3911,13 +3667,12 @@
     "turn_order": "4-1 Combat Phase Choose Combat & Determine Who Can Fight",
     "date": "2026-02-10",
     "author": "Andreas Schmidt",
-    "referenced_rules": "",
+    "referenced_rules": null,
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Yes, as long as you meet all the other requirements eg move 3“ etc."
+    "content": ""
   },
   {
     "filename": "338-do-skirmishers-need-to-form-up-again-when-contacting-an-enem.md",
@@ -3929,11 +3684,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "GW FAQ",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "No, skirmishers keep their formed up shape while pursuing. Therefore, they do not need to form up again, they align against the enemy instead upon contact"
+    "content": ""
   },
   {
     "filename": "339-do-ethereal-units-have-to-make-peril-tests-when-fleeing-thro.md",
@@ -3945,11 +3699,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Ethereal CRB 167",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Yes, while they cannot be wounded by magical attacks, Peril Tests cause a unit to lose a wound, not to suffer a wound, so units with the Ethereal special rule have to do peril tests just as other units do."
+    "content": ""
   },
   {
     "filename": "340-if-an-enemy-unit-loses-combat-and-will-give-ground-off-the-b.md",
@@ -3959,13 +3712,12 @@
     "turn_order": "4-3 Combat Phase Break Test",
     "date": "2026-02-10",
     "author": "Andreas Schmidt",
-    "referenced_rules": "",
+    "referenced_rules": null,
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "The winner can attempt to restrain and reform as normal. If the unit would Follow Up, they do not move as there is no enemy to move into contact with (and a unit can only overrun if the enemy is destroyed before the break test)."
+    "content": ""
   },
   {
     "filename": "341-is-it-possible-for-skirmish-models-to-pivot-or-wheel-during-.md",
@@ -3975,13 +3727,12 @@
     "turn_order": "0 General Rules",
     "date": "2026-02-10",
     "author": "Andreas Schmidt",
-    "referenced_rules": "",
+    "referenced_rules": null,
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Yes, given that no point of the model exceeds its maximum movement. Also note that you are only allowed to change your path of direction (aka wheel) only once during a skirmishers charge move. However, to make combat engagements possible at all, skirmishers can freely pivot during any time of their movement (charges and normal movement) without changing their path of movement."
+    "content": ""
   },
   {
     "filename": "342-can-champions-take-25-pts-more-points-in-royal-clan-or-wild-.md",
@@ -3993,11 +3744,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Arcane Journal Beastmen Brayherds\nArcene Journal Dwarf Mountain Holds",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "No"
+    "content": ""
   },
   {
     "filename": "343-if-a-unit-has-to-test-for-restrain-or-impetuous-and-wants-to.md",
@@ -4009,11 +3759,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Warband CRB 180\nGW FAQ",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Yes. The unit uses the modified leadership of the general via Inspiring Presence and does not use the Warband Modifier - the General uses it. The GW FAQ notes that only \"a Warband\" and thus the unit itself cannot use it."
+    "content": ""
   },
   {
     "filename": "344-when-do-units-actually-conduct-overrun.md",
@@ -4025,11 +3774,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Overrun CRB 156",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Overrun is a pursuit move. The unit has the choice to attempt to restrain or reform, same as for Pursuit or to Overrun and makes then a normal pursuit move bust moves directly forwards. So, the unit moves after break tests."
+    "content": ""
   },
   {
     "filename": "345-when-a-warband-unit-makes-a-leadership-test-and-uses-the-ins.md",
@@ -4041,11 +3789,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Warband CRB 180\nGW FAQ",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Only the warband modifier of the Generals unit (if he is in a warband unit) is used. If the general is not in a warband unit, then no warband modifier can be claimed."
+    "content": ""
   },
   {
     "filename": "346-a-unit-affected-by-certain-spells-earthen-ramparts-formation.md",
@@ -4057,11 +3804,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "GW FAQ",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Yes. Contacting a unit with Random Movement is basically charging. You cannot make contact, those units have to stop 1\" away from the enemy unit while unable to charge and will not trigger any rules affected by charging. Note that units cannot use Counter Charge under these conditions at all, as clarified by GW FAQ."
+    "content": ""
   },
   {
     "filename": "347-when-charging-a-unit-in-an-arc-that-features-an-incomplete-r.md",
@@ -4071,13 +3817,12 @@
     "turn_order": "2-2 Movement Phase Charge Moves",
     "date": "2026-02-10",
     "author": "Andreas Schmidt",
-    "referenced_rules": "",
+    "referenced_rules": null,
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Use the footprint of the unit, extending the incomplete rank or file to be complete, and have the charging unit make contact (and maximize contact with) models who would be in those positions."
+    "content": ""
   },
   {
     "filename": "348-do-fanatics-now-die-when-moving-through-a-unit-that-is-entre.md",
@@ -4089,11 +3834,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Orcs and Goblins\nGW FAQ",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "If the unit is under the effect of Earthen Ramparts but wasn’t charged, they hit the unit since earthen ramparts specifies it only works if charged. Against entrenched or earthen ramparts when charged, the fanatics hit the obstacle and die."
+    "content": ""
   },
   {
     "filename": "349-can-you-use-wailing-dirge-after-charging-failed-charges-or-m.md",
@@ -4105,11 +3849,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Vampire Counts",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "No. While Charging and failed Charging are no stated exclusively, since Wailing Dirge is an attack made in the shooting phase (Shooting Attack), it can't be used after Charging, even being a special rule (like other shooting attacks resolving from special rules) since the permission is not granted by the special rule."
+    "content": ""
   },
   {
     "filename": "351-when-a-character-or-champion-retires-from-combat-is-moved-fo.md",
@@ -4119,13 +3862,12 @@
     "turn_order": "0 General Rules",
     "date": "2026-02-10",
     "author": "Andreas Schmidt",
-    "referenced_rules": "",
+    "referenced_rules": null,
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "No. The character (or champion) counts as moving when they retire, but the unit itself does not."
+    "content": ""
   },
   {
     "filename": "352-can-i-choose-for-reserves-to-enter-during-any-player-s-turn.md",
@@ -4137,11 +3879,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Matched Play Guide Scenarios",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "No, only on your own turns."
+    "content": ""
   },
   {
     "filename": "353-do-modifiers-to-the-to-hit-roll-apply-when-using-the-seal-of.md",
@@ -4153,11 +3894,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Bretonnia",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Yes. The Seal of Parravon refers to a roll of 3 on the To Hit table before modifiers (i.e., the result after consulting the table, not the natural dice roll). Modifiers are applied as normal."
+    "content": ""
   },
   {
     "filename": "354-can-the-champion-of-a-unit-which-swapped-their-shields-for-a.md",
@@ -4167,13 +3907,12 @@
     "turn_order": "0 General Rules",
     "date": "2026-02-10",
     "author": "Andreas Schmidt",
-    "referenced_rules": "",
+    "referenced_rules": null,
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Yes, just like how a character doesn't have to buy a generic shield in order to have a magic one. You just need the shield as a possible option to access the magic version. Yes, the champion can use a different weapon option if he has access to."
+    "content": ""
   },
   {
     "filename": "355-if-chalice-of-dark-rain-is-active-can-a-casket-of-souls-use-.md",
@@ -4185,11 +3924,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Beastmen Brayherds",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Only the range of missile weapons is halved´, so the range of Magic Missiles, Wailing Dirge, Breath Weapons and similar rules are not affected (Sky Lantern Bombs), but war machines cannot shoot at all. Since the casket's magic missile is a shooting attack, it cannot be used in such a turn."
+    "content": ""
   },
   {
     "filename": "356-if-a-model-that-was-already-in-a-fighting-rank-steps-up-into.md",
@@ -4201,11 +3939,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Stepping Forward & Closing In CRB 150\nGW FAQ",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "The model that steps up may only direct attacks against an enemy unit that it could have attacked prior to stepping up. Use the model's original position to determine what it can attack and how many attacks it can make."
+    "content": ""
   },
   {
     "filename": "357-can-sappers-use-their-ability-dig-in-in-every-command-phase-.md",
@@ -4217,11 +3954,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Dwarf Mountain Holds",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "The wording of the special rule \"Dig in!\" has priority over the general rules for command abilities, thus the special rule can be used in every command phase."
+    "content": ""
   },
   {
     "filename": "358-if-a-unit-of-skirmishers-takes-casualties-and-has-no-other-c.md",
@@ -4233,11 +3969,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "GW FAQ",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Any model out of coherency, including characters, is removed from play as casualty."
+    "content": ""
   },
   {
     "filename": "359-do-you-get-to-chose-a-charge-reaction-if-accidentally-contac.md",
@@ -4249,11 +3984,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Accidental Contact during a Charge CRB 131\nPursuit into a fresh Enemy CRB 157",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "This is accidental contact during a charge. Follow the procedure on 131 - the charging unit only counts as having redirect prior so it can make contact - you don't get a charge reaction, which only is available after a unit is selected as charge target during a redirect or charge declaration. Note this also means you do not get a charge reaction if an enemy unit pursuits or overruns into you as explained on 157."
+    "content": ""
   },
   {
     "filename": "360-can-an-assailment-spell-be-cast-from-any-position-in-the-uni.md",
@@ -4263,13 +3997,12 @@
     "turn_order": "4-1 Combat Phase Choose Combat & Determine Who Can Fight",
     "date": "2026-02-10",
     "author": "Andreas Schmidt",
-    "referenced_rules": "",
+    "referenced_rules": null,
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "The caster has only to be within the fighting rank that is engaged with the unit he wants to target and does not necessarily needs to have base contact to that unit. Note that assailment spells do not lose hits if there is no base contact."
+    "content": ""
   },
   {
     "filename": "361-when-do-you-determine-which-models-can-attack-during-a-comba.md",
@@ -4281,11 +4014,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Choose Combat &\nDetermine Who Can Fight CRB 145ff",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "When the combat is chosen, after challenges are issued and characters moved through the ranks, check which models are in which fighting rank and whom they can attack. Models that step into a fighting rank later or that are added later to a fighting rank cannot attack in that fighting rank. See also ID356."
+    "content": ""
   },
   {
     "filename": "362-the-sea-dragon-cloak-is-a-special-rule-equipment-of-the-dark.md",
@@ -4297,11 +4029,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Dark Elves",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "No. Regardless the Equipment, chariots, war machines and monsters can only have a 3+ armour save max."
+    "content": ""
   },
   {
     "filename": "363-clarification-of-the-grail-reliquae.md",
@@ -4313,11 +4044,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Bretonnia",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "The Grail Reliquae is a single model. It might have the stats of 6 Pilgrims but it's still just a single Heavy Infantry model, which has a Unit Strength of 1. No matter how many wounds it suffers it still has 6 attacks. It is not in Marching Column if it's the only model remaining as single models cannot be in Marching Column. Attacks cannot be directed against the Grail Reliquae - all hits will be assigned to the unit. This means the unit will not benefit from the Blessing unless the Grail Reliquae is the last remaining model. If a template hits the Grail Reliquae, it results in a normal hit assigned to the unit - note that \"risking being hit\" for the Grail Reliquae works the same way as for any other model with that base size."
+    "content": ""
   },
   {
     "filename": "364-a-unit-affected-by-certain-spells-earthen-ramparts-or-format.md",
@@ -4329,11 +4059,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Pursuit Overrun CRB 156-157",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "No, a charge move/charging is only made during the Charge phase. Pursuit/overrun into an enemy unit are unaffected by effects that prevent them from charging - they just count as having charged if they make contact"
+    "content": ""
   },
   {
     "filename": "365-when-are-ambushers-declared.md",
@@ -4345,11 +4074,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Ambushers CRB 166",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "just like scouts, units with Ambushers can be deployed normally until characters are deployed. A unit with both scouts and ambushers can either be deployed as a scout, or be placed in ambush if they still haven't been places after their owner declared that they have placed all scouting units."
+    "content": ""
   },
   {
     "filename": "366-can-stomp-attacks-in-a-challenge-be-also-directed-towards-th.md",
@@ -4361,11 +4089,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "GW FAQ\nStomp Attacks CRB 177",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "No"
+    "content": ""
   },
   {
     "filename": "367-due-to-the-gw-faq-about-objects-being-removed-from-the-table.md",
@@ -4377,11 +4104,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "GW FAQ",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Anything that has a real or represented (by template) physical presence on the board that is present for more than a single sub-phase. A unit is a type of object, for example, as is a magical vortex"
+    "content": ""
   },
   {
     "filename": "368-in-the-army-list-for-most-armies-of-infamy-there-will-be-a-t.md",
@@ -4391,13 +4117,12 @@
     "turn_order": "0 Faction Rules",
     "date": "2026-02-10",
     "author": "Andreas Schmidt",
-    "referenced_rules": "",
+    "referenced_rules": null,
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Models can select magic items from their original army book only (Shaggoths in Wolves of the Sea get only Beastmen items)."
+    "content": ""
   },
   {
     "filename": "369-when-an-attack-that-uses-a-template-such-as-bombardment-or-a.md",
@@ -4409,11 +4134,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "GW FAQ",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Template attacks resolved fully even if the template is partially off the table."
+    "content": ""
   },
   {
     "filename": "370-if-a-mounted-model-casts-a-spell-or-uses-an-ability-that-aff.md",
@@ -4425,11 +4149,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Split Profile CRB 97\nGW FAQ",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "No. A spell or ability that specifies the caster gaining an effect will only affect the wizard itself and not their mount."
+    "content": ""
   },
   {
     "filename": "371-when-do-you-chose-the-lore-for-a-wizarding-hat-and-arcane-fa.md",
@@ -4441,11 +4164,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Arcane Familiar CRB 343",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "In both cases, the magic lore has to be noted in the army list. You can roll spells and do the dice allocation for the number of spells before deployment in the order you chose for all your wizards."
+    "content": ""
   },
   {
     "filename": "372-does-the-unity-and-harmony-rule-affect-cathay-units-joined-b.md",
@@ -4457,11 +4179,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Grand Cathay",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "No, Jade Warriors & Jade Lancers may only reroll To-Hit rolls of 1 if they are within 3 inches of a mercenary unit. Mercenary characters joined to non-mercenary units do not count."
+    "content": ""
   },
   {
     "filename": "373-can-a-unit-that-was-drawn-from-another-army-list-benefit-fro.md",
@@ -4473,11 +4194,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Beastmen Brayherds",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Yes, as it has been picked as part of a Beastmen Brayherds army, although it originates from the Warriors of Chaos rules. This applies for all similar unit entries, which are taken as part of the army list (not as mercenaries or allies except for allied armies of infamies in their corresponding grand army)."
+    "content": ""
   },
   {
     "filename": "374-can-you-see-into-a-base-of-a-model-or-does-the-base-itself-b.md",
@@ -4489,11 +4209,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Line of Sight CRB 103",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "No, bases fully block line of sight."
+    "content": ""
   },
   {
     "filename": "375-ogdruz-swampcalla-and-branchwraith-are-now-the-only-non-upda.md",
@@ -4505,11 +4224,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "GW FAQ\nLores of Magic CRB 106",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Yes. GW did issue an errata to the other wizards and did not issue an errata to these two. It was not a generalized FAQ, so the wordign remains. Therefore, the exceptions may have access to multiple Lores at the same time."
+    "content": ""
   },
   {
     "filename": "376-what-happens-when-you-use-redress-the-ranks-or-uses-drilled-.md",
@@ -4521,11 +4239,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Redress the Ranks CRB 125",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "When a unit performs Redress the Ranks, Models can be either removed from the front rank or added to the front rank, divided as equally as possible on either sides of the unit to maintain its centre. When removing models, the last models to remove must be the characters, then the command group, always keeping the standard bearer in the front rank and as close to the centre as possible. Command group models removed from the front rank must go to the second rank (and third in case of a single column). Characters removed from the front rank must go to the rear rank. The player choses the position of all models in their respective back ranks. When adding models to the front rank, the opposite order must be followed: first the command group, then the characters, before rank and file models. The position of added models can be chosen by the controlling player, but must respect the positioning rule for the command group and for characters: standard bearer as close to the centre as possible, command group models to either side, characters anywhere in the front rank. Note that characters may be placed among the command group."
+    "content": ""
   },
   {
     "filename": "377-how-does-character-placement-in-a-unit-affect-the-unit-s-com.md",
@@ -4537,11 +4254,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "GW FAQ",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Per GW FAQ, characters can be placed among a unit's command. However, a standard bearer must be placed in the center of the front rank (or as close as possible) and command models must be placed in the front rank. Characters cannot displace command models from the front rank or the standard bearer from the center of the unit, but may displace a champion or musician to another position within the front rank. Rank & file models cannot be placed between command models (including characters) and the standard bearer."
+    "content": ""
   },
   {
     "filename": "378-is-a-unit-with-random-movement-affected-by-modifiers-applyin.md",
@@ -4553,11 +4269,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Random Movement CRB 176",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Yes. Although models with the Random Movement special rule \"do not have a normal Movement characteristic\", the result of their dice roll is taken as their Movement characteristic and is affected by modifiers."
+    "content": ""
   },
   {
     "filename": "379-the-spell-hidden-pathways-allows-the-target-to-perform-a-qui.md",
@@ -4567,13 +4282,12 @@
     "turn_order": "2-4 Movement Phase Remaining Moves",
     "date": "2026-02-10",
     "author": "Andreas Schmidt",
-    "referenced_rules": "",
+    "referenced_rules": null,
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "The unit gains Quick Turn and can use it even after marching or if it is not in Open Order formation"
+    "content": ""
   },
   {
     "filename": "380-if-a-character-is-placed-in-the-rear-rank-of-a-unit-because-.md",
@@ -4585,11 +4299,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Positioning Characters CRB 207",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "A character that is placed in the rear rank for this reason has not retired. They provide bonuses to the unit they have joined and can cast spells without restriction, though they must still be in the fighting rank to cast assailment spells. A character in the rear rank can see through other models in its own unit, and as such may cast Magic Missile spells, perform shooting attacks, or take any other actions that require Line of Sight. In combat, the character may Move Through the Ranks to join the fighting rank as normal."
+    "content": ""
   },
   {
     "filename": "381-can-you-choose-when-to-use-the-opal-amulet-or-are-you-forced.md",
@@ -4601,11 +4314,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "High Elves\nSingle Use Magic Items CRB 337",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "The item gives the bearer a ward save when used, but the player chooses when to activate single use items. Therefore, the Amulet does not have to be used exclusively against the first wound."
+    "content": ""
   },
   {
     "filename": "382-when-a-character-leaves-a-unit-how-is-that-character-affecte.md",
@@ -4615,13 +4327,12 @@
     "turn_order": "2-4 Movement Phase Remaining Moves",
     "date": "2026-02-10",
     "author": "Andreas Schmidt",
-    "referenced_rules": "",
+    "referenced_rules": null,
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Movement is checked when a character or unit begins their movement. They move as a skirmisher, and move through other models in their unit freely. Any spells or effects (positive or negative) affect the character's movement during the Remaining Moves phase in which the character leaves the unit. This means that if the unit is affected by Miasmic Mirage, the character cannot march, and if the unit is affected by Steed of Shadows, the character may move using Fly (12). If for any reason the character does not follow the Lone Character rules when not in a unit (such as a character on a light chariot), then they must adhere to the normal movement rules for their respective unit type when leaving the unit."
+    "content": ""
   },
   {
     "filename": "383-according-to-gw-s-faq-the-griffon-standard-allows-its-unit-t.md",
@@ -4633,11 +4344,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Empire",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "The unit can claim their rank bonus up to the normal maximum for their unit type, but gets +2 instead of +1 for each of these ranks. Infantry with horde have a max of +6 (normally +3), whereas cavalry have a max of +2 (normally +1)."
+    "content": ""
   },
   {
     "filename": "384-can-evasive-be-used-against-ranged-attacks-with-the-column-o.md",
@@ -4649,11 +4359,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Fire Throwers CRB 229\nEvasive CRB 168",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Column of Fire's \"intended target\" does not need to be a unit, but can instead be a point on the table (similar to the Cannon Fire) rule. Because the unit is not targeted specifically, they cannot use Evasive."
+    "content": ""
   },
   {
     "filename": "385-when-do-you-determine-the-arc-for-a-detachment-supporting-ch.md",
@@ -4665,11 +4374,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "GW FAQ\nSupporting Charge CRB 283",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Similar to Counter-Charge FAQ - determine the arc after the main charge has occurred, out of sequence as this is a reaction as the charge is resolved after the primary charge."
+    "content": ""
   },
   {
     "filename": "386-if-a-regular-or-heavy-infantry-unit-that-is-not-in-skirmish-.md",
@@ -4681,11 +4389,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "GW FAQ",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Yes"
+    "content": ""
   },
   {
     "filename": "387-can-the-battle-standard-be-claimed-as-a-trophy-in-the-same-w.md",
@@ -4697,11 +4404,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Trophies of War CRB 286\nStandards CRB 152",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Yes, and the Victory Points obtained are cumulative to the Victory Points granted for slaying the BSB."
+    "content": ""
   },
   {
     "filename": "388-how-many-spells-does-a-cathay-l4-wizard-equipped-with-the-sc.md",
@@ -4713,11 +4419,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Grand Cathay",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "5 Spells"
+    "content": ""
   },
   {
     "filename": "389-if-a-bray-shaman-in-a-wild-herd-army-chooses-to-not-use-the-.md",
@@ -4729,11 +4434,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Dark Coven Beastmen Brayherds AJ 5",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "No. The miscast is shared with friendly wizards only when a bray-shaman chooses to use the +1 from Dark Coven before rolling to cast or dispel."
+    "content": ""
   },
   {
     "filename": "390-can-you-use-stand-and-shoot-against-a-lone-character-that-wo.md",
@@ -4745,11 +4449,10 @@
     "author": "Andreas Schmidt",
     "referenced_rules": "Stand & Shoot CRB 120",
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Yes, Stand and Shoot does not include targeting"
+    "content": ""
   },
   {
     "filename": "391-how-do-i-determine-the-troop-type-of-a-unit-that-includes-ra.md",
@@ -4759,13 +4462,12 @@
     "turn_order": "0 General Rules",
     "date": "2026-02-10",
     "author": "Andreas Schmidt",
-    "referenced_rules": "",
+    "referenced_rules": null,
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Use the unit type stated in the primary Unit entry (War Beasts / Cavalry for Primal Warhounds for example). However, Rank Bonus and Special Rules that affect models can be applied to individual models (using generals Ld, getting a third rank bonus with horde if the rank consists entirely of Infantry etc)."
+    "content": ""
   },
   {
     "filename": "392-what-happens-when-a-unit-flees-off-the-board-with-a-flee-rea.md",
@@ -4775,12 +4477,11 @@
     "turn_order": "2-2 Movement Phase Charge Moves",
     "date": "2026-02-10",
     "author": "Andreas Schmidt",
-    "referenced_rules": "",
+    "referenced_rules": null,
     "change_log": [
-      "correct md format",
       "fix faq format error",
       "add current comp faq"
     ],
-    "content": "Conduct the Flee move off the board. Leave the unit in place as close as possible to the position it would end the move - as the table allows. Conduct the charge move to the fleeing unit adhering to all charge move criteria, without the need to maximize. If the charging unit would leave the board, it is allowed to do so, as if it had conducted a pursuit off the Board. If it doesn’t catch the fleeing unit, it is Not allowed to attempt to Reform, even that the fleeing unit counts as destroyed. Note that the unit is not allowed to move in the following compulsory move phase since it already has moved in the charge move phase and will re-enter the board in it's next compulsory move phase."
+    "content": ""
   }
 ]
